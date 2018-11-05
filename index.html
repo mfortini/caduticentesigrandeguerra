@@ -1,0 +1,36 @@
+---
+layout: homepage
+title: Caduti Centesi della Grande Guerra
+subtitle: Una rilettura del libro "Martiri e Caduti Centesi della Patria Indipendenza, 1930"
+---
+
+<div class="homepage-categories">
+{% for category in site.data.logos %}
+  {% if category.map == false %}
+    {% capture logo_alt %}{{ category.name }}{% if category.logo_credit and category.logo_credit != empty %} logo by {{ category.logo_credit }}{% endif %}{% endcapture %}
+    <a href="{{ site.baseurl }}/{{ category.link | slugify }}" class="thumbnail" title="{{ logo_alt }}">
+      {% if category.logo and category.logo != empty %}
+        <img src="{{ site.baseurl }}{{ category.logo }}" alt="{{ logo_alt }}">
+      {% endif %}
+      {{ category.name }}
+    </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+<hr class="col-lg-12">
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="../js/moment.min.js"></script>
+<script type="text/javascript" src="../js/masonry.min.js"></script>
+<!-- form di ricerca delle news -->
+<script src="../js/jquery.sieve.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.5/elasticlunr.min.js"></script>
+<script type="text/javascript" src="../js/lunr.stemmer.support.min.js"></script>
+<script type="text/javascript" src="../js/lunr.it.min.js"></script>
+<script type="text/javascript" src="../js/search.min.js"></script>
+
+
+<style> div.form-inline.text-center {padding-bottom: 8rem;} .itemTitle a {font-weight: bold; color: #337ab7 !important; text-decoration: none;} </style>
