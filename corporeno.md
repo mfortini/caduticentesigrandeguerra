@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Caduti di Corporeno
-permalink: /caduti_di/Corporeno
+permalink: /caduti_di/Corporeno/
 ---
 
 <div class="row"><div class="col-md-12">
