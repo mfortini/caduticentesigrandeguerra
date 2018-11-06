@@ -19,6 +19,9 @@ description: Dal libro "Martiri e Caduti Centesi della Patria Indipendenza, 1930
 # --- Navigation bar options --- #
 # List of links in the navigation bar
 navbar-links:
+  Mappe:
+          - Luoghi di battaglia: "mappe/luoghi_battaglia"
+          - Luoghi di morte: "mappe/luoghi_morte"
   Caduti di:
           - Cento: "caduti_di/Cento"
           - Penzale: "caduti_di/Penzale"

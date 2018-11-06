@@ -1,0 +1,47 @@
+---
+layout: base
+---
+
+{% include header.html type="issue" %}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js" integrity="sha512-WXoSHqw/t26DszhdMhOXOkI7qCiv5QWXhH9R7CgvgZMHz1ImlkVQ3uNsiQKu5wwbbxtPzFXd1hK4tzno2VqhpA==" crossorigin=""></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#map_morte{ height: 600px }
+</style>
+
+<div class="container" role="main">
+        <div id="map_morte">
+        </div>
+</div>
+
+<script>
+// initialize the map
+var map_morte = L.map('map_morte').setView([42.5,12.5], 5);
+
+// create the tile layer with correct attribution
+var osmUrl='{{site.tile_map}}';
+var osmAttrib='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://opentopomap.org/" target="_blank">OpenTopoMap</a>';
+var osm = new L.TileLayer(osmUrl, {minZoom: 5, maxZoom: 11, attribution: osmAttrib, opacity: 0.5});
+
+map_morte.addLayer(osm);
+
+var markers = L.markerClusterGroup();
+{% for member in site.data.caduti %}
+{% if member.Coordinate_luogo_morte != blank %}
+{% assign coords_morte = member.Coordinate_luogo_morte | split: ',' %}
+var title = "{{member.Cognome}} {{member.Nome}}";
+{% assign dataMorte = member.Data_morte | split: '-' %}
+var popup = '<a href="/caduti/{{member.title | downcase}}"><h1>{{member.Cognome}} {{member.Nome}}</h1></a><br>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte != blank %},<br>morto {%if dataMorte[2] == "11" %}l\'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}';
+var marker = L.circleMarker(new L.LatLng({{coords_morte[0]}}, {{coords_morte[1]}}), { title: title }, fill=true);
+marker.bindPopup(popup);
+markers.addLayer(marker);
+{% endif %}
+map_morte.addLayer(markers);
+{% endfor %}
+
+</script>
