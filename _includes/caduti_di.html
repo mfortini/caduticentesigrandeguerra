@@ -1,19 +1,19 @@
 
-<div class="row">
-        <div class="col-md-6 col-md-offset-3">
-                <div class="panel-group">
-                        {% assign filtereddata = site.data.caduti | where: "Provenienza",page.frazione %}
-                        {% for member in filtereddata %}
-                        <div class="panel panel-default">
+<div class="row align-items-start">
+        <div class="col-md-12">
+                {% assign filtereddata = site.data.caduti | where: "Provenienza",page.frazione %}
+                {% for member in filtereddata %}
+                <div class="col-md-4">
+                        <div class="panel panel-default" style="height: 200px;">
                                 <div class="panel-heading">
                                         <a href="/caduti/{{member.title | downcase}}">
                                                 <h3>{{member.Cognome}} {{member.Nome}}</h3>
                                         </a>
                                 </div>
                                 {% assign dataMorte = member.Data_morte | split: '-' %}
-                                <div class="panel-body">Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte != blank %},<br>morto {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</div>
+                                <div class="panel-body"><small>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte != blank %},<br>morto {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</small></div>
                         </div>
-                        {% endfor %}
                 </div>
+                {% endfor %}
         </div>
 </div>
