@@ -10,7 +10,8 @@
                                                 <h3>{{member.Cognome}} {{member.Nome}}</h3>
                                         </a>
                                 </div>
-                                <div class="panel-body">Nato a {{member.Luogo_nascita}} nel {{member.Data_nascita | round}}</div>
+                                {% assign dataMorte = member.Data_morte | split: '-' %}
+                                <div class="panel-body">Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte != blank %},<br>morto {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</div>
                         </div>
                         {% endfor %}
                 </div>
