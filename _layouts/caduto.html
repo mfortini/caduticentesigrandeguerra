@@ -24,7 +24,7 @@ layout: base
         {% if page.Data_morte != blank %}
         {% assign dataMorte = page.Data_morte | split: '-' %}
         <div class="row">
-                <div class="col-md-12">morto {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}</div>
+                <div class="col-md-12">morto {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% if page.Luogo_morte != blank %} presso {{page.Luogo_morte}} {% endif %}</div>
         </div>
         {% endif %}
         <div class="row">
