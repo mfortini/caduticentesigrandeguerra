@@ -42,7 +42,7 @@ var markers = L.markerClusterGroup();
 {% assign coords_morte = member.Coordinate_luogo_morte | split: ',' %}
 var title = "{{member.Cognome}} {{member.Nome}}";
 {% assign dataMorte = member.Data_morte | split: '-' %}
-var popup = '<a href="/caduti/{{member.title | downcase}}"><h1>{{member.Cognome}} {{member.Nome}}</h1></a><br>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte != blank %},<br>morto {%if dataMorte[2] == "11" %}l\'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}';
+var popup = '<a href="/caduti/{{member.title | downcase | replace: ' ', '-'}}"><h1>{{member.Cognome}} {{member.Nome}}</h1></a><br>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte != blank %},<br>morto {%if dataMorte[2] == "11" %}l\'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}';
 var marker = L.circleMarker(new L.LatLng({{coords_morte[0]}}, {{coords_morte[1]}}), { title: title }, fill=true);
 marker.bindPopup(popup);
 markers.addLayer(marker);
