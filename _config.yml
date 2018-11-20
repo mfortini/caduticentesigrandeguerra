@@ -112,7 +112,7 @@ highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
 #selec tile for maps
-tile_map: http://c.tile.opentopomap.org/{z}/{x}/{y}.png
+tile_map: https://c.tile.opentopomap.org/{z}/{x}/{y}.png
 kramdown:
   input: GFM
 

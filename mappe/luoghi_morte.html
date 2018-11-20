@@ -31,7 +31,7 @@ var map_morte = L.map('map_morte').setView([42.5,12.5], 4);
 
 // create the tile layer with correct attribution
 var osmUrl='{{site.tile_map}}';
-var osmAttrib='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://opentopomap.org/" target="_blank">OpenTopoMap</a>';
+var osmAttrib='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="https://opentopomap.org/" target="_blank">OpenTopoMap</a>';
 var osm = new L.TileLayer(osmUrl, {minZoom: 4, maxZoom: 11, attribution: osmAttrib, opacity: 0.7});
 
 map_morte.addLayer(osm);
