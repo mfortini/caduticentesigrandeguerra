@@ -22,6 +22,7 @@ navbar-links:
   Mappe:
           - Luoghi di battaglia: "mappe/luoghi_battaglia"
           - Luoghi di morte: "mappe/luoghi_morte"
+  Cronologia date di morte: "date_di_morte/"
   Caduti di:
           - Cento: "caduti_di/Cento"
           - Penzale: "caduti_di/Penzale"
