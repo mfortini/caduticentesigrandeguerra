@@ -1,0 +1,116 @@
+
+<div class="row align-items-start">
+        <div class="col-md-12">
+                {% if page.frazione != blank %}
+                {% assign filtereddata = site.data.caduti | where: "Provenienza",page.frazione %}
+                {% else %}
+                {% assign filtereddata = site.data.caduti %}
+                {% endif %}
+
+                <div class="row">
+                        <div class="col-md-12">
+                            <p>Ci sono {{filtereddata | size}} caduti {% if page.frazione != blank %}{% if page.frazione == "Cento" %}del capoluogo di{% else %}della frazione di{% endif %} {{page.frazione}} {% else %}del Comune di Cento{% endif %}</p>
+                        </div>
+                </div>
+
+
+                <div class="row">
+                        <div class="col-md-12">
+                                <div class="panel panel-default">
+                                        <div class="panel-body">
+                                                <div id="date_nascita" style="height:800px;"></div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-md-12">
+                                <div class="panel panel-default">
+                                        <div class="panel-body">
+                                                <div id="eta_morte" style="height:800px;"></div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<script>
+        DATE_NASCITA = document.getElementById('date_nascita');
+var y = [];
+
+{% for member in filtereddata %}{% if member.Data_nascita %}y.push({{member.Data_nascita | times: 1}});{% endif %}{% endfor %} 
+
+var trace = {
+        autosize: true,
+        automargin: true,
+        y: y,
+        type: 'histogram',
+        ybins: {
+                end: Math.min(y), 
+                size: 1, 
+                start: Math.max(y)
+        },
+        textposition: "auto",
+        marker: {
+                color: 'rgb(255,10,10)',
+                line: {
+                        color: 'rgb(8,48,107)',
+                        width: 1.5
+                },
+        },
+};
+
+var layout = {
+    title: 'Anno di nascita',
+        xaxis: {
+    title: 'Numero di caduti',
+        },
+        yaxis: {
+    title: 'Anno',
+        },
+    showlegend: false
+};
+
+var data = [trace];
+Plotly.plot(DATE_NASCITA, data, layout, { displayModeBar : false });
+
+ETA_MORTE = document.getElementById('eta_morte');
+var y = [];
+
+{% for member in filtereddata %}{% if member.Data_nascita != blank and member.Data_morte != blank %}{% assign dataMorte = member.Data_morte | split: '-' %}y.push({{dataMorte[0] | minus: member.Data_nascita }});{% endif %}{% endfor %} 
+
+var trace = {
+        autosize: true,
+        automargin:true,
+        y: y,
+        type: 'histogram',
+        ybins: {
+                end: Math.min(y), 
+                size: 1, 
+                start: Math.max(y) 
+        },
+        textposition: "auto",
+        marker: {
+                color: 'rgb(158,202,225)',
+                line: {
+                        color: 'rgb(8,48,107)',
+                        width: 1.5
+                },
+        },
+};
+var data = [trace];
+var layout = {
+    title: 'Età di morte',
+        xaxis: {
+    title: 'Numero di caduti',
+        },
+        yaxis: {
+    title: 'Anni',
+        },
+    showlegend: false
+};
+Plotly.plot(ETA_MORTE, data, layout, { displayModeBar : false });
+
+</script>
