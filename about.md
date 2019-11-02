@@ -12,4 +12,6 @@ edito nel settembre 1930 dalla Tipografia Barbini di Cento a cura delle Sezioni 
 
 I dati sono rilasciati con licenza CC0, i contenuti con licenza CC-BY.
 
+I sorgenti del sito e i dati sono su https://github.com/mfortini/caduticentesigrandeguerra
+
 Il tema Jekyll di base è rilasciato con licenza MIT.

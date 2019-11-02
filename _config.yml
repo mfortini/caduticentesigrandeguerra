@@ -58,7 +58,7 @@ avatar: /images/logomartiri.jpg
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Caduti Centesi della Grande Guerra
-  #email: "youremail@domain.com"
+  email: info@caduticentesigrandeguerra.it
   facebook: 
   github: mfortini/caduticentesigrandeguerra    # eg. daattali
   twitter: 
@@ -78,9 +78,9 @@ footer-links-active:
   androidapp: false
   rss: false
   facebook: false
-  email: false
+  email: true
   twitter: false
-  github: false
+  github: true
   linkedin: false
   xing: false
   stackoverflow: false
