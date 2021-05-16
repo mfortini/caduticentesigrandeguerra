@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+<div class="row align-items-start">
+        <div class="col-md-12">
+                {% assign filtereddata = site.data.caduti | where: "Cognome",page.Cognome | sort: "Nome" %}
+                
+                <div class="row">
+                    {% assign conteggio = filtereddata | size %}
+                    {% if conteggio == 1 %}C'è 1 caduto con il cognome{% else %}Ci sono {{conteggio}} caduti con il cognome{% endif %} {{page.Cognome}}.
+                </div>
+
+                <div class="row">
+                        {% for member in filtereddata %}
+                        <div class="col-md-4">
+                                <div class="panel panel-default" style="height: 200px;">
+                                        <div class="panel-heading">
+                                                <a href="/caduti/{{member.title | downcase | replace: ' ','-' }}/index.html">
+                                                        <h3>{{member.Cognome}} {{member.Nome}}</h3>
+                                                </a>
+                                        </div>
+                                        {% assign dataMorte = member.Data_morte | split: '-' %}
+                                        <div class="panel-body"><small>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Professione != blank %}, {{ member.Professione }}{% endif %}{% if member.Grado != blank %}, {{ member.Grado }}{% endif %}{% if member.Data_morte != blank %}, morto {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</small></div>
+                                </div>
+                        </div>
+                        {% endfor %}
+                </div>
+        </div>
+</div>
