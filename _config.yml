@@ -221,6 +221,11 @@ page_gen:
     template: caduto
     name: title
     dir: caduti
+  - data: cognomi
+    template: caduti_cognome
+    name: Cognome
+    dir: cognome
+    title: Cognome
 
 gems:
   - jekyll-paginate

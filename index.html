@@ -11,7 +11,7 @@ subtitle: Una rilettura del libro "Martiri e Caduti Centesi della Patria Indipen
         <div class="row">
                 <h2>Mappe</h2>
                 <div class="col-md-6">
-                        <div class="panel panel-default" style="height: 100px;">
+                        <div class="panel panel-default h-100">
                                 <div class="panel-body">
                                         <a href="/mappe/luoghi_battaglia/">
                                                 <h3>Mappa dei luoghi di battaglia</h3>
@@ -20,7 +20,7 @@ subtitle: Una rilettura del libro "Martiri e Caduti Centesi della Patria Indipen
                         </div>
                 </div>
                 <div class="col-md-6">
-                        <div class="panel panel-default" style="height: 100px;">
+                        <div class="panel panel-default h-100">
                                 <div class="panel-body">
                                         <a href="/mappe/luoghi_morte/">
                                                 <h3>Mappa dei luoghi di morte</h3>
@@ -34,13 +34,28 @@ subtitle: Una rilettura del libro "Martiri e Caduti Centesi della Patria Indipen
                 <h2>I caduti raccolti nel libro</h2>
                 {% for member in filtereddata %}
                 <div class="col-md-4">
-                        <div class="panel panel-default" style="height: 100px;">
+                        <div class="panel panel-default h-100">
                                 <div class="panel-body">
                                         <a href="/caduti_di/{{member.name}}">
                                                 <h3>Caduti di {{member.name}}</h3>
                                         </a>
                                 </div>
                         </div>
+                </div>
+                {% endfor %}
+        </div>
+
+        <div class="row">
+                <h2>I cognomi raccolti nel libro</h2>
+                {% for member in site.data.cognomi %}
+                <div class="col-md-2">
+                    <div class="panel panel-default h-100">
+                        <div class="panel-body">
+                            <a href="/cognome/{{member.Cognome | slugify}}">
+                                <h4>{{member.Cognome}}</h4>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 {% endfor %}
         </div>
