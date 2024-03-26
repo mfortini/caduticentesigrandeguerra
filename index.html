@@ -33,11 +33,12 @@ subtitle: Una rilettura del libro "Martiri e Caduti Centesi della Patria Indipen
         <div class="row">
                 <h2>I caduti raccolti nel libro</h2>
                 {% for member in filtereddata %}
+                {% assign filteredcadutilen=site.data.caduti | where:"Provenienza",member.name | size%}
                 <div class="col-md-4">
                         <div class="panel panel-default h-100">
                                 <div class="panel-body">
                                         <a href="/caduti_di/{{member.name}}">
-                                                <h3>Caduti di {{member.name}}</h3>
+                                                <h3>Caduti di {{member.name}} ({{filteredcadutilen}})</h3>
                                         </a>
                                 </div>
                         </div>
@@ -52,7 +53,7 @@ subtitle: Una rilettura del libro "Martiri e Caduti Centesi della Patria Indipen
                     <div class="panel panel-default h-100">
                         <div class="panel-body">
                             <a href="/cognome/{{member.Cognome | slugify}}">
-                                <h4>{{member.Cognome}}</h4>
+                                <h4>{{member.Cognome}} ({{member.count}})</h4>
                             </a>
                         </div>
                     </div>

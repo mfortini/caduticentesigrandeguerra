@@ -1,7 +1,7 @@
 
 <div class="row align-items-start">
         <div class="col-md-12">
-                {% if page.frazione != blank %}
+                {% if page.frazione %}
                 {% assign filtereddata = site.data.caduti | where: "Provenienza",page.frazione %}
                 {% else %}
                 {% assign filtereddata = site.data.caduti %}
@@ -9,7 +9,7 @@
 
                 <div class="row">
                         <div class="col-md-12">
-                            <p>Ci sono {{filtereddata | size}} caduti {% if page.frazione != blank %}{% if page.frazione == "Cento" %}del capoluogo di{% else %}della frazione di{% endif %} {{page.frazione}} {% else %}del Comune di Cento{% endif %}</p>
+                            <p>Ci sono {{filtereddata | size}} caduti {% if page.frazione %}{% if page.frazione == "Cento" %}del capoluogo di{% else %}della frazione di{% endif %} {{page.frazione}} {% else %}del Comune di Cento{% endif %}</p>
                         </div>
                 </div>
 
@@ -79,7 +79,7 @@ Plotly.plot(DATE_NASCITA, data, layout, { displayModeBar : false });
 ETA_MORTE = document.getElementById('eta_morte');
 var y = [];
 
-{% for member in filtereddata %}{% if member.Data_nascita != blank and member.Data_morte != blank %}{% assign dataMorte = member.Data_morte | split: '-' %}y.push({{dataMorte[0] | minus: member.Data_nascita }});{% endif %}{% endfor %} 
+{% for member in filtereddata %}{% if member.Data_nascita and member.Data_morte %}{% assign dataMorte = member.Data_morte | split: '-' %}y.push({{dataMorte[0] | minus: member.Data_nascita }});{% endif %}{% endfor %} 
 
 var trace = {
         autosize: true,

@@ -33,7 +33,7 @@ var date_morte=
         }
     },
     "events": [
-    {% assign filtereddata = site.data.caduti | where_exp:"member", "member.Data_morte != blank" | sort: "Data_morte" %}
+    {% assign filtereddata = site.data.caduti | where_exp:"member", "member.Data_morte" | sort: "Data_morte" %}
     {% assign cadutoMinDataMorte = filtereddata | first %}
     {% assign cadutoMinDataMorte = filtereddata | last %}
     {% for member in filtereddata %}
@@ -46,7 +46,7 @@ var date_morte=
         },
         "text": {
           "headline": '<a href="/caduti/{{member.title | downcase}}">{{member.Cognome}} {{member.Nome}}</a>',
-          {% capture member_text %}<p><small>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte != blank %},<br>morto {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</small></p>{% endcapture %}
+          {% capture member_text %}<p><small>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte %},<br>morto {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</small></p>{% endcapture %}
           {% assign member_text = member_text | xml_escape %}
           "text": decodeHTML("{{member_text}}")
         }

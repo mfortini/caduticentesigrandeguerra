@@ -39,11 +39,11 @@ map_teatro.addLayer(osm);
 
 var markers = L.markerClusterGroup();
 {% for member in site.data.caduti %}
-{% if member.Coordinate_teatro != blank %}
+{% if member.Coordinate_teatro %}
 {% assign coords_teatro = member.Coordinate_teatro | split: ',' %}
 var title = "{{member.Cognome}} {{member.Nome}}";
 {% assign dataMorte = member.Data_morte | split: '-' %}
-var popup = '<div class="row"><a href="/caduti/{{member.title | downcase | replace: ' ', '-'}}"><h3>{{member.Cognome}} {{member.Nome}}</h3></a></div><div class="row"><p>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte != blank %},<br>morto {%if dataMorte[2] == "11" %}l\'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</p></div>';
+var popup = '<div class="row"><a href="/caduti/{{member.title | downcase | replace: ' ', '-'}}"><h3>{{member.Cognome}} {{member.Nome}}</h3></a></div><div class="row"><p>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte %},<br>morto {%if dataMorte[2] == "11" %}l\'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</p></div>';
 var marker = L.circleMarker(new L.LatLng({{coords_teatro[0]}}, {{coords_teatro[1]}}), { title: title }, fill=true);
 marker.bindPopup(popup);
 markers.addLayer(marker);
