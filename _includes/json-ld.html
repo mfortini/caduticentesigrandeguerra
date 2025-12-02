@@ -1,0 +1,60 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": {{ site.url | jsonify }},
+  "name": {{ site.title | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ site.author.name | jsonify }}
+  }
+}
+</script>
+
+{% if page.pagetype == 'caduto' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ page.Nome | append: " " | append: page.Cognome | jsonify }},
+  "givenName": {{ page.Nome | jsonify }},
+  "familyName": {{ page.Cognome | jsonify }},
+  {% if page.Data_nascita %}"birthDate": {{ page.Data_nascita | jsonify }},{% endif %}
+  {% if page.Luogo_nascita %}"birthPlace": {
+    "@type": "Place",
+    "name": {{ page.Luogo_nascita | jsonify }}
+  },{% endif %}
+  {% if page.Data_morte %}"deathDate": {{ page.Data_morte | jsonify }},{% endif %}
+  {% if page.Luogo_morte %}"deathPlace": {
+    "@type": "Place",
+    "name": {{ page.Luogo_morte | jsonify }}
+  },{% endif %}
+  {% if page.Professione %}"jobTitle": {{ page.Professione | jsonify }},{% endif %}
+  {% if page.Grado %}"honorificPrefix": {{ page.Grado | jsonify }},{% endif %}
+  "description": {{ "Caduto della Grande Guerra - " | append: page.Provenienza | jsonify }}
+}
+</script>
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": {{ site.url | jsonify }}
+  }
+  {% if page.url != "/" %}
+  ,{
+    "@type": "ListItem",
+    "position": 2,
+    "name": {% if page.title %}{{ page.title | jsonify }}{% elsif page.Cognome %}{{ page.Cognome | append: " " | append: page.Nome | jsonify }}{% else %}{{ page.url | split: '/' | last | capitalize | jsonify }}{% endif %},
+    "item": {{ site.url | append: page.url | jsonify }}
+  }
+  {% endif %}
+  ]
+}
+</script>
