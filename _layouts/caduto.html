@@ -8,150 +8,263 @@ pagetype: caduto
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <style>
-        #map_teatro {
-                height: 150px
+        #map_teatro,
+        #map_luogo_morte {
+                height: 280px;
+                border-radius: 4px;
         }
 
-        #map_luogo_morte {
-                height: 150px
+        .info-section {
+                background: #f8f9fa;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                border-left: 4px solid #0056b3;
+        }
+
+        .info-section h3 {
+                margin-top: 0;
+                color: #0056b3;
+                font-size: 1.3em;
+                margin-bottom: 15px;
+        }
+
+        .info-row {
+                padding: 8px 0;
+                border-bottom: 1px solid #e9ecef;
+        }
+
+        .info-row:last-child {
+                border-bottom: none;
+        }
+
+        .info-label {
+                font-weight: 600;
+                color: #495057;
+        }
+
+        .info-value {
+                color: #212529;
+        }
+
+        .page-header-caduto {
+                text-align: center;
+                padding: 30px 0;
+                margin-bottom: 30px;
+                border-bottom: 2px solid #0056b3;
+        }
+
+        .page-header-caduto h1 {
+                margin: 0;
+                font-size: 2.5em;
+        }
+
+        .map-panel {
+                background: white;
+                border: 1px solid #dee2e6;
+                border-radius: 8px;
+                overflow: hidden;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .map-panel-heading {
+                background: #0056b3;
+                color: white;
+                padding: 15px;
+                font-weight: 600;
+        }
+
+        .map-panel-heading a {
+                color: white;
+                text-decoration: none;
+        }
+
+        .map-panel-heading a:hover {
+                text-decoration: underline;
+        }
+
+        .map-panel-body {
+                padding: 0;
+        }
+
+        .archive-section {
+                background: white;
+                border: 1px solid #dee2e6;
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .archive-iframe-container {
+                margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+                .page-header-caduto h1 {
+                        font-size: 1.8em;
+                }
+
+                .info-section {
+                        padding: 15px;
+                }
         }
 </style>
 
 <div class="container" role="main">
         <div class="row">
                 <div class="col-md-12">
-                        <center>
-                                <div class="h1">
-                                        <h1><a href="/cognome/{{page.Cognome | slugify}}">{{page.Cognome}}</a>
-                                                {{page.Nome}}</h1>
-                                </div>
-                        </center>
+                        <header class="page-header-caduto">
+                                <h1><a href="/cognome/{{page.Cognome | slugify}}">{{page.Cognome}}</a> {{page.Nome}}</h1>
+                        </header>
                 </div>
         </div>
-        <div class="col-md-6">
-                <div class="row">
-                        <div class="col-md-12">Nato a {{page.Luogo_nascita}}{% if page.Data_nascita %} nel
-                                {{page.Data_nascita | round}}{% endif %}</div>
-                </div>
-                {% if page.Data_morte %}
-                {% assign dataMorte = page.Data_morte | split: '-' %}
-                <div class="row">
-                        <div class="col-md-12">morto {%if dataMorte[2] == "11" %}l'{%else%}il
-                                {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}
-                                {% if page.Data_nascita %}(età {{dataMorte[0] | times: 1 | minus: page.Data_nascita |
-                                round: 0 }}){% endif %} {% if page.Luogo_morte %} presso {{page.Luogo_morte}} {% endif
-                                %}</div>
-                </div>
-                {% endif %}
-                <div class="row">
-                        <div class="col-md-4">Caduto di:</div><a href="/caduti_di/{{page.Provenienza}}">
-                                <div class="col-md-8">{{page.Provenienza}}</div>
-                        </a>
-                </div>
-                <div class="row">
-                        <div class="col-md-4">Padre:</div>
-                        <div class="col-md-8">{% if page.Nome_padre %}{{page.Cognome}} {{page.Nome_padre}}{% else
-                                %}Ignoto{% endif %}</div>
-                </div>
-                <div class="row">
-                        <div class="col-md-4">Madre:</div>
-                        <div class="col-md-8">{{page.Cognome_madre}} {{page.Nome_madre}}</div>
-                </div>
-                <div class="row">
-                        <div class="col-md-4">Professione:</div>
-                        <div class="col-md-8">{{page.Professione}}</div>
-                </div>
-                <div class="row">
-                        <div class="col-md-4">Grado:</div>
-                        <div class="col-md-8">{{page.Grado}}</div>
-                </div>
-                <div class="row">
-                        <div class="col-md-4">Causa di morte:</div>
-                        <div class="col-md-8">{{page.Causa_morte}}</div>
+
+        <!-- Prima riga: Dati personali a sinistra, Albo dei Caduti a destra -->
+        <div class="row">
+                <!-- Colonna sinistra: Dati Anagrafici + Famiglia + Informazioni Militari -->
+                <div class="col-md-6">
+                        <div class="info-section">
+                                        <h3>Dati Anagrafici</h3>
+                                        <div class="info-row">
+                                                <span class="info-label">Luogo di nascita:</span>
+                                                <span class="info-value">{{page.Luogo_nascita}}{% if page.Data_nascita %}, {{page.Data_nascita | round}}{% endif %}</span>
+                                        </div>
+                                        {% if page.Data_morte %}
+                                        {% assign dataMorte = page.Data_morte | split: '-' %}
+                                        <div class="info-row">
+                                                <span class="info-label">Data di morte:</span>
+                                                <span class="info-value">{%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% if page.Data_nascita %} (età {{dataMorte[0] | times: 1 | minus: page.Data_nascita | round: 0 }}){% endif %}</span>
+                                        </div>
+                                        {% endif %}
+                                        {% if page.Luogo_morte %}
+                                        <div class="info-row">
+                                                <span class="info-label">Luogo di morte:</span>
+                                                <span class="info-value">{{page.Luogo_morte}}</span>
+                                        </div>
+                                        {% endif %}
+                                        {% if page.Professione %}
+                                        <div class="info-row">
+                                                <span class="info-label">Professione:</span>
+                                                <span class="info-value">{{page.Professione}}</span>
+                                        </div>
+                                        {% endif %}
+                                        <div class="info-row">
+                                                <span class="info-label">Caduto di:</span>
+                                                <span class="info-value"><a href="/caduti_di/{{page.Provenienza}}">{{page.Provenienza}}</a></span>
+                                        </div>
+                                </div>
+
+                                <div class="info-section">
+                                        <h3>Famiglia</h3>
+                                        <div class="info-row">
+                                                <span class="info-label">Padre:</span>
+                                                <span class="info-value">{% if page.Nome_padre %}{{page.Cognome}} {{page.Nome_padre}}{% else %}Ignoto{% endif %}</span>
+                                        </div>
+                                        <div class="info-row">
+                                                <span class="info-label">Madre:</span>
+                                                <span class="info-value">{{page.Cognome_madre}} {{page.Nome_madre}}</span>
+                                        </div>
+                                </div>
+
+                                <div class="info-section">
+                                        <h3>Informazioni Militari</h3>
+                                        {% if page.Grado %}
+                                        <div class="info-row">
+                                                <span class="info-label">Grado:</span>
+                                                <span class="info-value">{{page.Grado}}</span>
+                                        </div>
+                                        {% endif %}
+                                        {% if page.Causa_morte %}
+                                        <div class="info-row">
+                                                <span class="info-label">Causa di morte:</span>
+                                                <span class="info-value">{{page.Causa_morte}}</span>
+                                        </div>
+                                        {% endif %}
+                                </div>
                 </div>
 
-                <div class="row">
-                        {% if page.Coordinate_teatro %}
-                        <div class="col-md-6">
-                                {% assign coords_teatro = page.Coordinate_teatro | split: ',' %}
-                                <div class="panel panel-default">
-                                        <div class="panel-heading" style="height: 100px;"><a
-                                                        href="https://www.openstreetmap.org/?mlat={{coords_teatro[0]}}&mlon={{coords_teatro[1]}}#map=6/{{coords_teatro[0]}}/{{coords_teatro[1]}}&layers=P"
-                                                        target="_blank">
-                                                        <h3>Dove ha combattuto</h3>
-                                                </a></div>
-                                        <div class="panel-body">
-                                                <div id="map_teatro">
-                                                </div>
-                                        </div>
+                <!-- Colonna destra: Albo dei Caduti -->
+                <div class="col-md-6">
+                        <div class="archive-section h-100 d-flex flex-column">
+                                <h3 style="margin-top: 0; color: #0056b3; margin-bottom: 15px;" class="flex-shrink-0">Albo dei Caduti</h3>
+                                <div class="archive-iframe-container flex-grow-1 embed-responsive embed-responsive-4by3">
+                                        <iframe class="embed-responsive-item" src="https://archive.org/stream/AlboDeiMartiriEDeiCadutiCentesiNellaPatriaIndipendenza#page/n{{page.Pagina}}"
+                                                allowfullscreen
+                                                loading="lazy"
+                                                title="Albo dei Martiri e dei Caduti Centesi"></iframe>
                                 </div>
+                                <a href="https://archive.org/stream/AlboDeiMartiriEDeiCadutiCentesiNellaPatriaIndipendenza#page/n{{page.Pagina}}"
+                                        target="_blank" class="btn btn-primary btn-block flex-shrink-0">
+                                        Apri in una nuova finestra
+                                </a>
                         </div>
-                        {% endif %}
-                        {% if page.Coordinate_luogo_morte %}
-                        <div class="col-md-6">
-                                {% assign coords_luogo_morte = page.Coordinate_luogo_morte | split: ',' %}
-                                <div class="panel panel-default">
-                                        <div class="panel-heading" style="height: 100px;"><a
-                                                        href="https://www.openstreetmap.org/?mlat={{coords_luogo_morte[0]}}&mlon={{coords_luogo_morte[1]}}#map=6/{{coords_luogo_morte[0]}}/{{coords_luogo_morte[1]}}&layers=P"
-                                                        target="_blank">
-                                                        <h3>Dove è morto</h3>
-                                                </a></div>
-                                        <div class="panel-body">
-                                                <div id="map_luogo_morte">
-                                                </div>
-                                        </div>
+                </div>
+        </div>
+
+        <!-- Seconda riga: Mappe -->
+        <div class="row">
+                <!-- Mappa teatro (sinistra) -->
+                <div class="col-md-6">
+                        {% if page.Coordinate_teatro %}
+                        {% assign coords_teatro = page.Coordinate_teatro | split: ',' %}
+                        <div class="map-panel">
+                                <div class="map-panel-heading">
+                                        <a href="https://www.openstreetmap.org/?mlat={{coords_teatro[0]}}&mlon={{coords_teatro[1]}}#map=6/{{coords_teatro[0]}}/{{coords_teatro[1]}}&layers=P" target="_blank">
+                                                Dove ha combattuto
+                                        </a>
+                                </div>
+                                <div class="map-panel-body">
+                                        <div id="map_teatro"></div>
                                 </div>
                         </div>
                         {% endif %}
                 </div>
-        </div>
-        <div class="col-md-6">
-                <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                                <div class="row">
-                                        <iframe src="https://archive.org/stream/AlboDeiMartiriEDeiCadutiCentesiNellaPatriaIndipendenza#page/n{{page.Pagina}}"
-                                                width="560" height="384" frameborder="0" webkitallowfullscreen="true"
-                                                mozallowfullscreen="true" allowfullscreen loading="lazy"
-                                                title="Albo dei Martiri e dei Caduti Centesi"></iframe>
+
+                <!-- Mappa luogo morte (destra) -->
+                <div class="col-md-6">
+                        {% if page.Coordinate_luogo_morte %}
+                        {% assign coords_luogo_morte = page.Coordinate_luogo_morte | split: ',' %}
+                        <div class="map-panel">
+                                <div class="map-panel-heading">
+                                        <a href="https://www.openstreetmap.org/?mlat={{coords_luogo_morte[0]}}&mlon={{coords_luogo_morte[1]}}#map=6/{{coords_luogo_morte[0]}}/{{coords_luogo_morte[1]}}&layers=P" target="_blank">
+                                                Dove è morto
+                                        </a>
                                 </div>
-                                <div class="row">
-                                        <a href="https://archive.org/stream/AlboDeiMartiriEDeiCadutiCentesiNellaPatriaIndipendenza#page/n{{page.Pagina}}"
-                                                target="_blank">Apri in una nuova finestra</a>
+                                <div class="map-panel-body">
+                                        <div id="map_luogo_morte"></div>
                                 </div>
                         </div>
+                        {% endif %}
                 </div>
         </div>
 </div>
 
 <script>
+        // Function to initialize a Leaflet map
+        function initMap(mapId, lat, lon) {
+                var map = L.map(mapId).setView([lat, lon], 12);
 
+                var osmUrl = '{{site.tile_map}}';
+                var osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="https://opentopomap.org/" target="_blank">OpenTopoMap</a>';
+                var osm = new L.TileLayer(osmUrl, {
+                        minZoom: 8,
+                        maxZoom: 19,
+                        attribution: osmAttrib
+                });
+
+                map.addLayer(osm);
+                L.circleMarker([lat, lon], { fill: true }).addTo(map);
+
+                return map;
+        }
+
+        // Initialize maps if coordinates are available
         {% if page.Coordinate_teatro %}
-        // initialize the map
-        var map_teatro = L.map('map_teatro').setView([{{ coords_teatro[0]}}, {{ coords_teatro[1] }}], 12);
-
-        // create the tile layer with correct attribution
-        var osmUrl = '{{site.tile_map}}';
-        var osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="https://opentopomap.org/" target="_blank">OpenTopoMap</a>';
-        var osm = new L.TileLayer(osmUrl, { minZoom: 8, maxZoom: 19, attribution: osmAttrib });
-
-        map_teatro.addLayer(osm);
-
-        var marker = L.circleMarker([{{ coords_teatro[0]}}, {{ coords_teatro[1] }}], fill = true).addTo(map_teatro);
+        initMap('map_teatro', {{ coords_teatro[0]}}, {{ coords_teatro[1] }});
         {% endif %}
 
         {% if page.Coordinate_luogo_morte %}
-        // initialize the map
-        var map_luogo_morte = L.map('map_luogo_morte').setView([{{ coords_luogo_morte[0]}}, {{ coords_luogo_morte[1] }}], 12);
-
-        // create the tile layer with correct attribution
-        var osmUrl = '{{site.tile_map}}';
-        var osmAttrib = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="https://opentopomap.org/" target="_blank">OpenTopoMap</a>';
-        var osm = new L.TileLayer(osmUrl, { minZoom: 8, maxZoom: 19, attribution: osmAttrib });
-
-        map_luogo_morte.addLayer(osm);
-
-        var marker = L.circleMarker([{{ coords_luogo_morte[0]}}, {{ coords_luogo_morte[1] }}], fill = true).addTo(map_luogo_morte);
+        initMap('map_luogo_morte', {{ coords_luogo_morte[0]}}, {{ coords_luogo_morte[1] }});
         {% endif %}
-
-
 </script>

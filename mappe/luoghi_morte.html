@@ -12,16 +12,113 @@ title: Luoghi di morte
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-#map_morte{ height: 600px }
+        #map_morte {
+                height: 600px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .page-header-map {
+                text-align: center;
+                padding: 30px 0;
+                margin-bottom: 30px;
+                border-bottom: 2px solid #0056b3;
+        }
+
+        .page-header-map h1 {
+                margin: 0;
+                font-size: 2.5em;
+                color: #0056b3;
+        }
+
+        .page-intro {
+                background: #f8f9fa;
+                padding: 15px 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                border-left: 4px solid #0056b3;
+        }
+
+        .leaflet-popup-content {
+                padding: 20px;
+                min-width: 250px;
+                font-size: 15px;
+        }
+
+        .leaflet-popup-content h3 {
+                margin: 0 0 12px 0;
+                font-size: 18px;
+                color: #0056b3;
+        }
+
+        .leaflet-popup-content h3 a {
+                color: #0056b3;
+                text-decoration: none;
+        }
+
+        .leaflet-popup-content h3 a:hover {
+                text-decoration: underline;
+        }
+
+        .leaflet-popup-content p {
+                margin: 0;
+                line-height: 1.6;
+        }
+
+        .leaflet-popup-content strong {
+                font-weight: 600;
+        }
+
+        /* Stile cluster markers */
+        .marker-cluster-small,
+        .marker-cluster-medium,
+        .marker-cluster-large {
+                background-color: rgba(0, 0, 0, 0.5) !important;
+                border: 3px solid white !important;
+        }
+
+        .marker-cluster-small div,
+        .marker-cluster-medium div,
+        .marker-cluster-large div {
+                background-color: rgba(0, 0, 0, 0.8) !important;
+                color: white;
+                font-weight: bold;
+                font-size: 16px;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                width: 100% !important;
+                height: 100% !important;
+                margin: 0 !important;
+                line-height: 1 !important;
+        }
+
+        @media (max-width: 768px) {
+                .page-header-map h1 {
+                        font-size: 1.8em;
+                }
+
+                #map_morte {
+                        height: 400px;
+                }
+        }
 </style>
 
 <div class="container" role="main">
         <div class="row">
-                <div class="col-md-12"><h1>Luoghi di morte</h1></div>
-
+                <div class="col-md-12">
+                        <header class="page-header-map">
+                                <h1>Luoghi di morte</h1>
+                        </header>
+                        <div class="page-intro">
+                                Questa mappa mostra i luoghi dove i caduti centesi sono morti durante la Prima Guerra Mondiale. Clicca sui marker per visualizzare le informazioni sui caduti.
+                        </div>
+                </div>
         </div>
         <div class="row">
-                <div class="col-md-12"><div id="map_morte"></div>
+                <div class="col-md-12">
+                        <div id="map_morte"></div>
+                </div>
         </div>
 </div>
 
@@ -42,12 +139,20 @@ var markers = L.markerClusterGroup();
 {% assign coords_morte = member.Coordinate_luogo_morte | split: ',' %}
 var title = "{{member.Cognome}} {{member.Nome}}";
 {% assign dataMorte = member.Data_morte | split: '-' %}
-var popup = '<a href="/caduti/{{member.title | downcase | replace: ' ', '-'}}"><h1>{{member.Cognome}} {{member.Nome}}</h1></a><br>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte %},<br>morto {%if dataMorte[2] == "11" %}l\'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}';
-var marker = L.circleMarker(new L.LatLng({{coords_morte[0]}}, {{coords_morte[1]}}), { title: title }, fill=true);
+var popup = '<h3><a href="/caduti/{{member.title | downcase | replace: ' ', '-'}}">{{member.Cognome}} {{member.Nome}}</a></h3>' +
+        '<p><strong>Nato a:</strong> {{member.Luogo_nascita}}{%if member.Data_nascita %}, {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte %}<br><strong>Morto:</strong> {%if dataMorte[2] == "11" %}l\'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</p>';
+var marker = L.circleMarker(new L.LatLng({{coords_morte[0]}}, {{coords_morte[1]}}), {
+        title: title,
+        fillColor: '#000000',
+        color: '#ffffff',
+        weight: 3,
+        fillOpacity: 1,
+        radius: 9
+});
 marker.bindPopup(popup);
 markers.addLayer(marker);
 {% endif %}
-map_morte.addLayer(markers);
 {% endfor %}
+map_morte.addLayer(markers);
 
 </script>

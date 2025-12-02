@@ -1,26 +1,141 @@
 
-<div class="row align-items-start">
-        <div class="col-md-12">
-                {% assign filtereddata = site.data.caduti | where: "Provenienza",page.frazione %}
-                
-                <div class="row">
-                        Ci sono {{filtereddata | size}} caduti {% if page.frazione == "Cento" %}del capoluogo di{% else %}della frazione di{% endif %} {{page.frazione}}.
-                </div>
+<style>
+        .caduto-card {
+                border: 1px solid #dee2e6;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                transition: transform 0.2s, box-shadow 0.2s;
+                background: white;
+                cursor: pointer;
+                text-decoration: none;
+                color: inherit;
+                display: block;
+        }
 
-                <div class="row">
-                        {% for member in filtereddata %}
-                        <div class="col-md-4">
-                                <div class="panel panel-default" style="height: 200px;">
-                                        <div class="panel-heading">
-                                                <a href="/caduti/{{member.title | downcase | replace: ' ','-' }}/index.html">
-                                                        <h3>{{member.Cognome}} {{member.Nome}}</h3>
-                                                </a>
-                                        </div>
-                                        {% assign dataMorte = member.Data_morte | split: '-' %}
-                                        <div class="panel-body"><small>Nato a {{member.Luogo_nascita}}{%if member.Data_nascita != blank %} nel {{member.Data_nascita | round}}{% endif %}{% if member.Professione != blank %}, {{ member.Professione }}{% endif %}{% if member.Grado != blank %}, {{ member.Grado }}{% endif %}{% if member.Data_morte != blank %}, morto {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</small></div>
-                                </div>
+        .caduto-card:hover,
+        .caduto-card:focus {
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+                text-decoration: none;
+                color: inherit;
+        }
+
+        .caduto-card-header {
+                background: #0056b3;
+                padding: 15px;
+                border-radius: 8px 8px 0 0;
+        }
+
+        .caduto-card-header h3 {
+                margin: 0;
+                font-size: 1.3em;
+                color: white;
+        }
+
+        .caduto-card-body {
+                padding: 15px;
+        }
+
+        .caduto-info-item {
+                margin-bottom: 8px;
+                padding-bottom: 8px;
+                border-bottom: 1px solid #f0f0f0;
+        }
+
+        .caduto-info-item:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+        }
+
+        .caduto-info-label {
+                font-weight: 600;
+                color: #495057;
+                display: inline-block;
+                min-width: 100px;
+        }
+
+        .caduto-info-value {
+                color: #212529;
+        }
+
+        .page-intro {
+                background: #f8f9fa;
+                padding: 15px 20px;
+                border-radius: 8px;
+                margin-bottom: 30px;
+                border-left: 4px solid #0056b3;
+                font-size: 1.1em;
+        }
+
+        @media (max-width: 768px) {
+                .caduto-card-header h3 {
+                        font-size: 1.1em;
+                }
+
+                .caduto-info-label {
+                        display: block;
+                        min-width: auto;
+                        margin-bottom: 3px;
+                }
+        }
+</style>
+
+<div class="container" role="main">
+        <div class="row">
+                <div class="col-md-12">
+                        {% assign filtereddata = site.data.caduti | where: "Provenienza",page.frazione %}
+
+                        <div class="page-intro">
+                                {% assign conteggio = filtereddata | size %}
+                                {% if conteggio == 1 %}
+                                        C'è <strong>1 caduto</strong> {% if page.frazione == "Cento" %}del capoluogo di{% else %}della frazione di{% endif %} <strong>{{page.frazione}}</strong>.
+                                {% else %}
+                                        Ci sono <strong>{{conteggio}} caduti</strong> {% if page.frazione == "Cento" %}del capoluogo di{% else %}della frazione di{% endif %} <strong>{{page.frazione}}</strong>.
+                                {% endif %}
                         </div>
-                        {% endfor %}
                 </div>
+        </div>
+
+        <div class="row">
+                {% for member in filtereddata %}
+                <div class="col-sm-6 col-md-4">
+                        <a href="/caduti/{{member.title | downcase | replace: ' ','-' }}/index.html" class="caduto-card h-100 d-flex flex-column">
+                                <div class="caduto-card-header flex-shrink-0">
+                                        <h3>{{member.Cognome}} {{member.Nome}}</h3>
+                                </div>
+                                <div class="caduto-card-body flex-grow-1">
+                                        <div class="caduto-info-item">
+                                                <span class="caduto-info-label">Nascita:</span>
+                                                <span class="caduto-info-value">
+                                                        {{member.Luogo_nascita}}{% if member.Data_nascita != blank %}, {{member.Data_nascita | round}}{% endif %}
+                                                </span>
+                                        </div>
+                                        {% if member.Data_morte != blank %}
+                                        {% assign dataMorte = member.Data_morte | split: '-' %}
+                                        <div class="caduto-info-item">
+                                                <span class="caduto-info-label">Morte:</span>
+                                                <span class="caduto-info-value">
+                                                        {%if dataMorte[2] == "11" %}l'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}
+                                                        {% if member.Data_nascita != blank %} ({{dataMorte[0] | times: 1 | minus: member.Data_nascita | round: 0 }} anni){% endif %}
+                                                </span>
+                                        </div>
+                                        {% endif %}
+                                        {% if member.Professione != blank %}
+                                        <div class="caduto-info-item">
+                                                <span class="caduto-info-label">Professione:</span>
+                                                <span class="caduto-info-value">{{ member.Professione }}</span>
+                                        </div>
+                                        {% endif %}
+                                        {% if member.Grado != blank %}
+                                        <div class="caduto-info-item">
+                                                <span class="caduto-info-label">Grado:</span>
+                                                <span class="caduto-info-value">{{ member.Grado }}</span>
+                                        </div>
+                                        {% endif %}
+                                </div>
+                        </a>
+                </div>
+                {% endfor %}
         </div>
 </div>
