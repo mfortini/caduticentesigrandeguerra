@@ -1,29 +1,87 @@
 ---
 layout: homepage
 title: Caduti Centesi della Grande Guerra
-subtitle: Una rilettura del libro &ldquo;Martiri e Caduti Centesi della Patria Indipendenza, 1930&rdquo;
 ---
 
+<!-- Introduzione -->
+<div class="row">
+        <div class="col-xs-12">
+                <p class="lead text-center" style="margin-top: 20px; margin-bottom: 30px;">
+                        Archivio digitale dedicato alla memoria dei caduti centesi della Prima Guerra Mondiale (1915-1918).
+                        Questo progetto riporta alla luce le storie e i sacrifici documentati nel volume storico
+                        <em>"Martiri e Caduti Centesi della Patria Indipendenza"</em> del 1930.
+                </p>
+        </div>
+</div>
 
-<div class="col-md-12">
+<!-- Statistiche generali -->
+<div class="row">
+        <div class="col-sm-6 col-md-3">
+                <div class="panel panel-primary text-center stats-card">
+                        <div class="panel-body">
+                                <h3 class="panel-title stats-title"><strong>Caduti Registrati</strong></h3>
+                                <p class="stats-number">{{ site.data.caduti | size }}</p>
+                        </div>
+                </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+                <div class="panel panel-primary text-center stats-card">
+                        <div class="panel-body">
+                                <h3 class="panel-title stats-title"><strong>Località</strong></h3>
+                                <p class="stats-number">{% assign provenienze = site.data.caduti | group_by: "Provenienza" | size %}{{ provenienze }}</p>
+                        </div>
+                </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+                <div class="panel panel-primary text-center stats-card">
+                        <div class="panel-body">
+                                <h3 class="panel-title stats-title"><strong>Cognomi</strong></h3>
+                                <p class="stats-number">{{ site.data.cognomi | size }}</p>
+                        </div>
+                </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+                <div class="panel panel-primary text-center stats-card">
+                        <div class="panel-body">
+                                <h3 class="panel-title stats-title"><strong>Periodo</strong></h3>
+                                <p class="stats-number">1915-1918</p>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<div class="col-xs-12">
         {% assign filtereddata = site.data.caduti | group_by: "Provenienza" %}
 
         <div class="row">
-                <h2>Mappe</h2>
-                <div class="col-md-6">
-                        <div class="panel panel-default h-100">
+                <div class="col-xs-12">
+                        <h2>Mappe Interattive</h2>
+                        <p class="text-muted">Esplora le mappe geografiche dei luoghi di battaglia e morte dei caduti</p>
+                </div>
+        </div>
+        <div class="row row-eq-height">
+                <div class="col-sm-6 col-md-6">
+                        <div class="panel panel-info map-card">
+                                <div class="panel-heading">
+                                        <h3 class="panel-title"><strong>Luoghi di Battaglia</strong></h3>
+                                </div>
                                 <div class="panel-body">
-                                        <a href="/mappe/luoghi_battaglia/">
-                                                <h3>Mappa dei luoghi di battaglia</h3>
+                                        <p class="map-description">Visualizza i teatri di guerra dove combatterono i soldati centesi durante la Prima Guerra Mondiale.</p>
+                                        <a href="/mappe/luoghi_battaglia/" class="btn btn-primary btn-block btn-lg" role="button">
+                                                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Esplora Mappa
                                         </a>
                                 </div>
                         </div>
                 </div>
-                <div class="col-md-6">
-                        <div class="panel panel-default h-100">
+                <div class="col-sm-6 col-md-6">
+                        <div class="panel panel-info map-card">
+                                <div class="panel-heading">
+                                        <h3 class="panel-title"><strong>Luoghi di Morte</strong></h3>
+                                </div>
                                 <div class="panel-body">
-                                        <a href="/mappe/luoghi_morte/">
-                                                <h3>Mappa dei luoghi di morte</h3>
+                                        <p class="map-description">Scopri dove caddero i soldati centesi durante il conflitto mondiale e commemora il loro sacrificio.</p>
+                                        <a href="/mappe/luoghi_morte/" class="btn btn-primary btn-block btn-lg" role="button">
+                                                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Esplora Mappa
                                         </a>
                                 </div>
                         </div>
@@ -31,14 +89,22 @@ subtitle: Una rilettura del libro &ldquo;Martiri e Caduti Centesi della Patria I
         </div>
 
         <div class="row">
-                <h2>I caduti raccolti nel libro</h2>
+                <div class="col-xs-12">
+                        <h2>Caduti per Località</h2>
+                        <p class="text-muted">Elenco dei caduti suddivisi per luogo di provenienza nel territorio centese</p>
+                </div>
                 {% for member in filtereddata %}
                 {% assign filteredcadutilen=site.data.caduti | where:"Provenienza",member.name | size%}
-                <div class="col-md-4">
-                        <div class="panel panel-default h-100">
-                                <div class="panel-body">
-                                        <a href="/caduti_di/{{member.name}}">
-                                                <h3>Caduti di {{member.name}} ({{filteredcadutilen}})</h3>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="panel panel-default locality-card">
+                                <div class="panel-heading">
+                                        <h3 class="panel-title"><strong>{{member.name}}</strong></h3>
+                                </div>
+                                <div class="panel-body text-center">
+                                        <p class="h1" style="margin: 20px 0;"><strong>{{filteredcadutilen}}</strong></p>
+                                        <p class="locality-label">caduti registrati</p>
+                                        <a href="/caduti_di/{{member.name}}" class="btn btn-primary btn-block btn-lg" role="button">
+                                                <strong>Vedi Elenco</strong> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                         </a>
                                 </div>
                         </div>
@@ -47,13 +113,17 @@ subtitle: Una rilettura del libro &ldquo;Martiri e Caduti Centesi della Patria I
         </div>
 
         <div class="row">
-                <h2>I cognomi raccolti nel libro</h2>
+                <div class="col-xs-12">
+                        <h2>Ricerca per Cognome</h2>
+                        <p class="text-muted">Trova i caduti per cognome</p>
+                </div>
                 {% for member in site.data.cognomi %}
-                <div class="col-md-2">
-                    <div class="panel panel-default h-100">
-                        <div class="panel-body">
-                            <a href="/cognome/{{member.Cognome | slugify}}">
-                                <h4>{{member.Cognome}} ({{member.count}})</h4>
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="panel panel-default surname-card">
+                        <div class="panel-body text-center">
+                            <a href="/cognome/{{member.Cognome | slugify}}" class="surname-link">
+                                <div class="surname-name">{{member.Cognome}}</div>
+                                <div class="surname-count">{{member.count}}</div>
                             </a>
                         </div>
                     </div>
@@ -66,8 +136,328 @@ subtitle: Una rilettura del libro &ldquo;Martiri e Caduti Centesi della Patria I
 
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="../js/moment.min.js"></script>
 <script type="text/javascript" src="../js/masonry.min.js"></script>
 
-<style> div.form-inline.text-center {padding-bottom: 8rem;} .itemTitle a {font-weight: bold; color: #337ab7 !important; text-decoration: none;} </style>
+<style>
+/* Existing styles */
+div.form-inline.text-center {padding-bottom: 8rem;}
+.itemTitle a {font-weight: bold; color: #337ab7 !important; text-decoration: none;}
+
+/* Bootstrap equal height rows */
+.row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-eq-height > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Homepage improvements */
+.panel {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    flex: 1;
+}
+
+.panel:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+}
+
+.panel-primary {
+    border-color: #2c5282;
+}
+
+.panel-primary .panel-heading {
+    background-color: #337ab7;
+    border-color: #2c5282;
+}
+
+.panel-primary .panel-body {
+    padding: 25px 20px;
+    background-color: #337ab7;
+}
+
+/* Statistics cards - large and readable */
+.stats-card .panel-body {
+    padding: 30px 20px;
+}
+
+.stats-title {
+    font-size: 1.15em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.stats-number {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.panel-info {
+    border-color: #17a2b8;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.lead {
+    font-size: 1.4em;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.text-muted {
+    margin-bottom: 20px;
+    font-size: 1.05em;
+}
+
+.btn-block {
+    margin-top: 10px;
+}
+
+/* Map cards - ensure equal height */
+.map-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.map-card .panel-heading {
+    padding: 15px;
+}
+
+.map-card .panel-title {
+    font-size: 1.3em;
+}
+
+.map-card .panel-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 25px 20px;
+}
+
+.map-description {
+    flex: 1;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Locality cards - better typography */
+.locality-card .panel-heading {
+    padding: 12px 15px;
+}
+
+.locality-card .panel-title {
+    font-size: 1.3em;
+}
+
+.locality-card .panel-body {
+    padding: 25px 20px;
+}
+
+.locality-label {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Surname cards - clean and readable with no text wrapping */
+.surname-card {
+    min-height: 120px;
+}
+
+.surname-card .panel-body {
+    padding: 25px 10px;
+}
+
+.surname-link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.surname-link:hover {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.surname-name {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.surname-link:hover .surname-name {
+    color: #337ab7;
+}
+
+.surname-count {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #666;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .row-eq-height {
+        display: block;
+    }
+
+    .panel-body {
+        padding: 20px 15px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+        margin-top: 20px;
+    }
+
+    .lead {
+        font-size: 1.2em;
+    }
+
+    .h1 {
+        font-size: 2.5em;
+    }
+
+    .stats-title {
+        font-size: 1.1em;
+    }
+
+    .stats-number {
+        font-size: 2.5em;
+    }
+
+    .map-card .panel-title {
+        font-size: 1.2em;
+    }
+
+    .map-description {
+        font-size: 1em;
+    }
+
+    .locality-label {
+        font-size: 1em;
+    }
+
+    .surname-name {
+        font-size: 1.3em;
+    }
+
+    .surname-count {
+        font-size: 1.5em;
+    }
+
+    .locality-card .panel-title {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .panel {
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .lead {
+        font-size: 1.1em;
+    }
+
+    .panel-title {
+        font-size: 1em;
+    }
+
+    .h1 {
+        font-size: 2em;
+    }
+
+    .stats-title {
+        font-size: 1em;
+    }
+
+    .stats-number {
+        font-size: 2em;
+    }
+
+    .stats-card .panel-body {
+        padding: 25px 15px;
+    }
+
+    .map-card .panel-body {
+        padding: 20px 15px;
+    }
+
+    .map-description {
+        font-size: 0.95em;
+    }
+
+    .surname-card {
+        min-height: 105px;
+    }
+
+    .surname-card .panel-body {
+        padding: 20px 8px;
+    }
+
+    .surname-name {
+        font-size: 1.15em;
+    }
+
+    .surname-count {
+        font-size: 2.0em;
+    }
+
+    .locality-card .panel-body {
+        padding: 20px 15px;
+    }
+
+    .locality-card .panel-title {
+        font-size: 1.1em;
+    }
+
+    .locality-label {
+        font-size: 0.95em;
+    }
+}
+
+/* Accessibility improvements */
+a:focus, button:focus {
+    outline: 2px solid #337ab7;
+    outline-offset: 2px;
+}
+
+.panel-body a:not(.surname-link) {
+    text-decoration: none;
+}
+
+.panel-body a:not(.surname-link):hover {
+    text-decoration: underline;
+}
+</style>

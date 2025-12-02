@@ -5,12 +5,62 @@
   "url": {{ site.url | jsonify }},
   "name": {{ site.title | jsonify }},
   "description": {{ site.description | jsonify }},
+  "inLanguage": "it-IT",
   "author": {
     "@type": "Person",
-    "name": {{ site.author.name | jsonify }}
+    "name": {{ site.author.name | jsonify }},
+    "email": {{ site.author.email | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/images/logomartiri.jpg",
+      "width": 310,
+      "height": 310
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
   }
 }
 </script>
+
+{% if page.url == '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HistoricalDigitalArchive",
+  "name": {{ site.title | jsonify }},
+  "description": "Archivio digitale dei caduti centesi della Prima Guerra Mondiale (1915-1918), basato sul volume Martiri e Caduti Centesi della Patria Indipendenza del 1930",
+  "url": {{ site.url | jsonify }},
+  "inLanguage": "it-IT",
+  "about": {
+    "@type": "HistoricalEvent",
+    "name": "Prima Guerra Mondiale",
+    "startDate": "1914",
+    "endDate": "1918",
+    "location": {
+      "@type": "Place",
+      "name": "Italia"
+    }
+  },
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Cento, Ferrara, Emilia-Romagna, Italia",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "44.7275",
+      "longitude": "11.2892"
+    }
+  },
+  "temporalCoverage": "1915-05-24/1918-11-04"
+}
+</script>
+{% endif %}
 
 {% if page.pagetype == 'caduto' %}
 <script type="application/ld+json">
