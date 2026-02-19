@@ -39,6 +39,14 @@
     margin-right: auto;
 }
 
+/* ---- Tabella professioni ---- */
+.prof-table { width: 100%; margin-top: 20px; }
+.prof-table th { background: #0056b3; color: white; padding: 10px 14px; text-align: left; }
+.prof-table td { padding: 8px 14px; border-bottom: 1px solid #dee2e6; }
+.prof-table tr:last-child td { border-bottom: none; }
+.prof-table tr:nth-child(even) { background: #f8f9fa; }
+.prof-bar { display: inline-block; background: #0056b3; height: 12px; border-radius: 3px; vertical-align: middle; margin-right: 6px; }
+
 /* ---- Caduto cards ---- */
 .caduto-card {
     border: 1px solid #dee2e6;

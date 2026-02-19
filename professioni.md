@@ -4,16 +4,6 @@ title: "Professioni dei caduti"
 permalink: /professioni/
 ---
 
-<style>
-  .page-intro { background:#f8f9fa; padding:15px 20px; border-radius:8px; margin-bottom:30px; border-left:4px solid #0056b3; font-size:1.1em; }
-  .prof-table { width:100%; margin-top:20px; }
-  .prof-table th { background:#0056b3; color:white; padding:10px 14px; text-align:left; }
-  .prof-table td { padding:8px 14px; border-bottom:1px solid #dee2e6; }
-  .prof-table tr:last-child td { border-bottom:none; }
-  .prof-table tr:nth-child(even) { background:#f8f9fa; }
-  .prof-bar { display:inline-block; background:#0056b3; height:12px; border-radius:3px; vertical-align:middle; margin-right:6px; }
-</style>
-
 <div class="container" role="main">
   <div class="row">
     <div class="col-md-12">
@@ -41,8 +31,13 @@ permalink: /professioni/
         <tbody>
           {% for group in by_prof %}
           {% if group.name != "" %}
+          {% assign sample = group.items | first %}
+          {% assign prof_page = site.pages | where_exp: "p", "p.professioni_valori contains sample.Professione" | first %}
           <tr>
-            <td>{{ group.name | capitalize }}</td>
+            <td>
+              {% if prof_page %}<a href="{{ prof_page.permalink }}">{{ group.name | capitalize }}</a>
+              {% else %}{{ group.name | capitalize }}{% endif %}
+            </td>
             <td><strong>{{ group.size }}</strong></td>
             <td><span class="prof-bar" style="width:{{ group.size | times: 2 }}px"></span></td>
           </tr>

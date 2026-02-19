@@ -21,7 +21,7 @@ permalink: /corpo/
       </div>
       <div class="corpo-grid">
 
-        {% assign corpi_pagine = site.pages | where: "dir", "/corpo/" | where_exp: "p", "p.name != 'index.md'" | sort: "title" %}
+        {% assign corpi_pagine = site.pages | where_exp: "p", "p.url contains '/corpo/'" | where_exp: "p", "p.url != '/corpo/'" | sort: "title" %}
         {% for p in corpi_pagine %}
           {% assign filtereddata = site.data.caduti | where_exp: "m", "p.corpi_valori contains m.Corpo" %}
           {% if filtereddata.size > 0 %}
