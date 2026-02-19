@@ -1,0 +1,23 @@
+---
+layout: none
+permalink: /search_caduti.json
+---
+[
+{% for member in site.data.caduti %}  {
+    "id": {{ member.title | jsonify }},
+    "url": {{ member.title | prepend: "/caduti/" | append: "/" | jsonify }},
+    "cognome": {{ member.Cognome | jsonify }},
+    "nome": {{ member.Nome | jsonify }},
+    "provenienza": {{ member.Provenienza | default: "" | jsonify }},
+    "professione": {{ member.Professione | default: "" | jsonify }},
+    "grado": {{ member.Grado | default: "" | jsonify }},
+    "corpo": {{ member.Corpo | default: "" | jsonify }},
+    "causa_morte_norm": {{ member.Causa_morte_norm | default: "" | jsonify }},
+    "luogo_morte": {{ member.Luogo_morte | default: "" | jsonify }},
+    "teatro": {{ member.Teatro_1 | default: "" | jsonify }},
+    "data_morte": {{ member.Data_morte | default: "" | jsonify }},
+    "data_nascita": {{ member.Data_nascita | default: "" | jsonify }},
+    "testo": {{ member.Testo_libro | truncate: 500 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

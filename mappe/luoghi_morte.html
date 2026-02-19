@@ -140,7 +140,7 @@ var markers = L.markerClusterGroup();
 var title = "{{member.Cognome}} {{member.Nome}}";
 {% assign dataMorte = member.Data_morte | split: '-' %}
 var popup = '<h3><a href="/caduti/{{member.title | downcase | replace: ' ', '-'}}">{{member.Cognome}} {{member.Nome}}</a></h3>' +
-        '<p><strong>Nato a:</strong> {{member.Luogo_nascita}}{%if member.Data_nascita %}, {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte %}<br><strong>Morto:</strong> {%if dataMorte[2] == "11" %}l\'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}</p>';
+        '<p><strong>Nato a:</strong> {{member.Luogo_nascita}}{%if member.Data_nascita %}, {{member.Data_nascita | round}}{% endif %}{% if member.Data_morte %}<br><strong>Morto:</strong> {%if dataMorte[2] == "11" %}l\'{%else%}il {%endif%}{{dataMorte[2]}}/{{dataMorte[1]}}/{{dataMorte[0]}}{% endif %}  {% if member.Luogo_morte %} ({{member.Luogo_morte | escape}}){% endif %}</p>';
 var marker = L.circleMarker(new L.LatLng({{coords_morte[0]}}, {{coords_morte[1]}}), {
         title: title,
         fillColor: '#000000',

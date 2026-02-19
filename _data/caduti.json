@@ -26,7 +26,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "alberghini-tommaso"
+        "title": "alberghini-tommaso",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 2,
@@ -55,7 +56,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "andreani-aldo"
+        "title": "andreani-aldo",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 3,
@@ -84,7 +86,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "angelini-elio"
+        "title": "angelini-elio",
+        "Causa_morte_norm": "Affondamento"
     },
     {
         "Numero": 4,
@@ -113,7 +116,8 @@
         "Teatro_1": "Montello",
         "Teatro_2": "Piave",
         "Coordinate_teatro": "45.82537,12.20920",
-        "title": "ansaloni-paolo"
+        "title": "ansaloni-paolo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 5,
@@ -142,7 +146,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bagnoli-luigi"
+        "title": "bagnoli-luigi",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 6,
@@ -171,7 +176,8 @@
         "Teatro_1": "Santa Caterina di Tolmino",
         "Teatro_2": null,
         "Coordinate_teatro": "46.18280,13.73290",
-        "title": "balboni-alfredo"
+        "title": "balboni-alfredo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 7,
@@ -200,7 +206,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "balboni-ferdinando-7"
+        "title": "balboni-ferdinando-7",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 8,
@@ -229,7 +236,8 @@
         "Teatro_1": "Bainsizza",
         "Teatro_2": null,
         "Coordinate_teatro": "46.01271,13.84449",
-        "title": "balboni-raffaele"
+        "title": "balboni-raffaele",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 9,
@@ -258,7 +266,8 @@
         "Teatro_1": "Oslavia e Podgora",
         "Teatro_2": "Gorizia",
         "Coordinate_teatro": "43.24335,17.07507",
-        "title": "baldini-ugo"
+        "title": "baldini-ugo",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 10,
@@ -287,7 +296,8 @@
         "Teatro_1": "Santa Maria di Tolmino",
         "Teatro_2": null,
         "Coordinate_teatro": "46.18280,13.73290",
-        "title": "benazzi-pietro"
+        "title": "benazzi-pietro",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 11,
@@ -316,7 +326,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bergami-giulio"
+        "title": "bergami-giulio",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 12,
@@ -345,7 +356,8 @@
         "Teatro_1": "Trincea",
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bergami-leonida"
+        "title": "bergami-leonida",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 13,
@@ -374,7 +386,8 @@
         "Teatro_1": "Monte Slemen",
         "Teatro_2": null,
         "Coordinate_teatro": "43.68958,22.05528",
-        "title": "bergonzoni-augusto"
+        "title": "bergonzoni-augusto",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 14,
@@ -403,7 +416,8 @@
         "Teatro_1": "Sabotino",
         "Teatro_2": "Gorizia",
         "Coordinate_teatro": "45.98842,13.63478",
-        "title": "bianchi-francesco-saverio"
+        "title": "bianchi-francesco-saverio",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 15,
@@ -432,7 +446,8 @@
         "Teatro_1": "Fronte",
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "boetti-arrigo"
+        "title": "boetti-arrigo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 16,
@@ -461,7 +476,8 @@
         "Teatro_1": "Monte Zebio",
         "Teatro_2": null,
         "Coordinate_teatro": "45.92611,11.50708",
-        "title": "borgatti-giuseppe"
+        "title": "borgatti-giuseppe",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 17,
@@ -490,7 +506,8 @@
         "Teatro_1": "Visco (Gradisca)",
         "Teatro_2": null,
         "Coordinate_teatro": "46.01271,13.84449",
-        "title": "borghi-elio"
+        "title": "borghi-elio",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 18,
@@ -519,7 +536,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bregoli-amedeo"
+        "title": "bregoli-amedeo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 19,
@@ -548,7 +566,8 @@
         "Teatro_1": "Castelfranco Veneto",
         "Teatro_2": null,
         "Coordinate_teatro": "45.67281,11.92524",
-        "title": "cadore-umberto"
+        "title": "cadore-umberto",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 20,
@@ -577,7 +596,8 @@
         "Teatro_1": "Albania",
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "callegari-enrico"
+        "title": "callegari-enrico",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 21,
@@ -606,7 +626,8 @@
         "Teatro_1": "Sarcedo",
         "Teatro_2": null,
         "Coordinate_teatro": "45.70839,11.52884",
-        "title": "cantori-umberto"
+        "title": "cantori-umberto",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 22,
@@ -635,7 +656,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "cattabriga-aldo"
+        "title": "cattabriga-aldo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 23,
@@ -664,7 +686,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "cristofori-aldo"
+        "title": "cristofori-aldo",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 24,
@@ -693,7 +716,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "cristofori-giovanni"
+        "title": "cristofori-giovanni",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 25,
@@ -722,7 +746,8 @@
         "Teatro_1": "Carso",
         "Teatro_2": "Rocce Rosse Monte San Michele",
         "Coordinate_teatro": "45.88197,13.54825",
-        "title": "dodi-pietro"
+        "title": "dodi-pietro",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 26,
@@ -751,7 +776,8 @@
         "Teatro_1": "Castagnevizza",
         "Teatro_2": null,
         "Coordinate_teatro": "45.85981,13.64985",
-        "title": "farioli-ferdinando-oscar"
+        "title": "farioli-ferdinando-oscar",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 27,
@@ -780,7 +806,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ferioli-giovanni"
+        "title": "ferioli-giovanni",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 28,
@@ -809,7 +836,8 @@
         "Teatro_1": "Dolina del Ro",
         "Teatro_2": null,
         "Coordinate_teatro": "45.85117,13.58305",
-        "title": "fregna-verardo"
+        "title": "fregna-verardo",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 29,
@@ -838,7 +866,8 @@
         "Teatro_1": "Bosco Malo",
         "Teatro_2": null,
         "Coordinate_teatro": "45.84134,13.60841",
-        "title": "gallerani-giuseppe-29"
+        "title": "gallerani-giuseppe-29",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 30,
@@ -867,7 +896,8 @@
         "Teatro_1": "Plava",
         "Teatro_2": null,
         "Coordinate_teatro": "46.04112,13.58958",
-        "title": "gamberini-antonio"
+        "title": "gamberini-antonio",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 31,
@@ -896,7 +926,8 @@
         "Teatro_1": "Piave",
         "Teatro_2": null,
         "Coordinate_teatro": "45.82537,12.20920",
-        "title": "gambetta-paolo"
+        "title": "gambetta-paolo",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 32,
@@ -925,7 +956,8 @@
         "Teatro_1": "Bosco Cappuccio",
         "Teatro_2": null,
         "Coordinate_teatro": "45.89127,13.58923",
-        "title": "garagnani-antonio"
+        "title": "garagnani-antonio",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 33,
@@ -954,7 +986,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "giberti-ermanno"
+        "title": "giberti-ermanno",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 34,
@@ -983,7 +1016,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "gigli-giuseppe"
+        "title": "gigli-giuseppe",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 35,
@@ -1012,7 +1046,8 @@
         "Teatro_1": "Sinani",
         "Teatro_2": null,
         "Coordinate_teatro": "40.16920,20.05009",
-        "title": "goretti-albano"
+        "title": "goretti-albano",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 36,
@@ -1041,7 +1076,8 @@
         "Teatro_1": "Santa Lucia di Tolmino",
         "Teatro_2": null,
         "Coordinate_teatro": "46.15311,13.74110",
-        "title": "goretti-alfonso"
+        "title": "goretti-alfonso",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 37,
@@ -1070,7 +1106,8 @@
         "Teatro_1": "Zerublan",
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "govoni-mario"
+        "title": "govoni-mario",
+        "Causa_morte_norm": "Malaria"
     },
     {
         "Numero": 38,
@@ -1099,7 +1136,8 @@
         "Teatro_1": "Cormons",
         "Teatro_2": null,
         "Coordinate_teatro": "45.957791,13.4709541",
-        "title": "grandi-francesco"
+        "title": "grandi-francesco",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 39,
@@ -1128,7 +1166,8 @@
         "Teatro_1": "Cavasso",
         "Teatro_2": null,
         "Coordinate_teatro": "46.22282,12.97349",
-        "title": "lagoni-luigi"
+        "title": "lagoni-luigi",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 40,
@@ -1157,7 +1196,8 @@
         "Teatro_1": "Beliano",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8188384,13.4656826",
-        "title": "lamborghini-alessandro"
+        "title": "lamborghini-alessandro",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 41,
@@ -1186,7 +1226,8 @@
         "Teatro_1": "Vertoiba",
         "Teatro_2": null,
         "Coordinate_teatro": "45.91598,13.63391",
-        "title": "landi-ilario"
+        "title": "landi-ilario",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 42,
@@ -1215,7 +1256,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "lodi-pier-paolo"
+        "title": "lodi-pier-paolo",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 43,
@@ -1244,7 +1286,8 @@
         "Teatro_1": "Oslavia Q. 188",
         "Teatro_2": null,
         "Coordinate_teatro": "45.97794,13.61116",
-        "title": "lorenzoni-virgilio"
+        "title": "lorenzoni-virgilio",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 44,
@@ -1273,7 +1316,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "lubiani-giovanni"
+        "title": "lubiani-giovanni",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 45,
@@ -1302,7 +1346,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "lubiani-vittorio"
+        "title": "lubiani-vittorio",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 46,
@@ -1331,7 +1376,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "malagodi-francesco"
+        "title": "malagodi-francesco",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 47,
@@ -1360,7 +1406,8 @@
         "Teatro_1": "Vallone di Jamiano",
         "Teatro_2": null,
         "Coordinate_teatro": "45.82102,13.58206",
-        "title": "malagodi-giuseppe"
+        "title": "malagodi-giuseppe",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 48,
@@ -1389,7 +1436,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "malaguti-pietro"
+        "title": "malaguti-pietro",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 49,
@@ -1418,7 +1466,8 @@
         "Teatro_1": "Magozza",
         "Teatro_2": null,
         "Coordinate_teatro": "46.26923,13.59398",
-        "title": "manderioli-gaetano"
+        "title": "manderioli-gaetano",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 50,
@@ -1447,7 +1496,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "mantovani-luigi"
+        "title": "mantovani-luigi",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 51,
@@ -1476,7 +1526,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "marchesini-bruno"
+        "title": "marchesini-bruno",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 52,
@@ -1505,7 +1556,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "marchesini-guido"
+        "title": "marchesini-guido",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 53,
@@ -1534,7 +1586,8 @@
         "Teatro_1": "Sabotino",
         "Teatro_2": null,
         "Coordinate_teatro": "45.98842,13.63478",
-        "title": "martinelli-armando"
+        "title": "martinelli-armando",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 54,
@@ -1563,7 +1616,8 @@
         "Teatro_1": "Bainsizza",
         "Teatro_2": null,
         "Coordinate_teatro": "46.01271,13.84449",
-        "title": "mazzanti-luigi"
+        "title": "mazzanti-luigi",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 55,
@@ -1592,7 +1646,8 @@
         "Teatro_1": "Monte Santo",
         "Teatro_2": null,
         "Coordinate_teatro": "45.996944, 13.657731",
-        "title": "monti-luigi"
+        "title": "monti-luigi",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 56,
@@ -1621,7 +1676,8 @@
         "Teatro_1": "Q. 265",
         "Teatro_2": null,
         "Coordinate_teatro": "45.86695,13.71626",
-        "title": "muratori-ferdinando"
+        "title": "muratori-ferdinando",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 57,
@@ -1650,7 +1706,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "nanetti-ettore"
+        "title": "nanetti-ettore",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 58,
@@ -1679,7 +1736,8 @@
         "Teatro_1": "Oslavia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9712772,13.6127368",
-        "title": "nannini-enrico"
+        "title": "nannini-enrico",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 59,
@@ -1708,7 +1766,8 @@
         "Teatro_1": "Bainsizza",
         "Teatro_2": null,
         "Coordinate_teatro": "46.01271,13.84449",
-        "title": "nannini-paolo"
+        "title": "nannini-paolo",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 60,
@@ -1737,7 +1796,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "nicoletti-emilio"
+        "title": "nicoletti-emilio",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 61,
@@ -1766,7 +1826,8 @@
         "Teatro_1": "Podgora",
         "Teatro_2": null,
         "Coordinate_teatro": "46.56902,15.64002",
-        "title": "ottani-guglielmo"
+        "title": "ottani-guglielmo",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 62,
@@ -1795,7 +1856,8 @@
         "Teatro_1": "Oslavia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9712772,13.6127368",
-        "title": "passerini-giovanni"
+        "title": "passerini-giovanni",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 63,
@@ -1824,7 +1886,8 @@
         "Teatro_1": "Villa Blanchis",
         "Teatro_2": null,
         "Coordinate_teatro": "45.95107,13.55229",
-        "title": "passerini-vittorio-63"
+        "title": "passerini-vittorio-63",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 64,
@@ -1853,7 +1916,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "patelli-armando"
+        "title": "patelli-armando",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 65,
@@ -1882,7 +1946,8 @@
         "Teatro_1": "Monte Giove",
         "Teatro_2": null,
         "Coordinate_teatro": "45.77364,11.31798",
-        "title": "pedini-giovanni"
+        "title": "pedini-giovanni",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 66,
@@ -1911,7 +1976,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "petocchi-placido"
+        "title": "petocchi-placido",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 67,
@@ -1940,7 +2006,8 @@
         "Teatro_1": "Vittorio Veneto",
         "Teatro_2": null,
         "Coordinate_teatro": "45.98971,12.29648",
-        "title": "piccaglia-giuseppe"
+        "title": "piccaglia-giuseppe",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 68,
@@ -1969,7 +2036,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "piccaglia-pietro"
+        "title": "piccaglia-pietro",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 69,
@@ -1998,7 +2066,8 @@
         "Teatro_1": "Cavenzano",
         "Teatro_2": null,
         "Coordinate_teatro": "45.86320,13.38771",
-        "title": "pioppi-roberto"
+        "title": "pioppi-roberto",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 70,
@@ -2027,7 +2096,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "proni-alberto"
+        "title": "proni-alberto",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 71,
@@ -2056,7 +2126,8 @@
         "Teatro_1": "Gorizia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.94413,13.62523",
-        "title": "forni-amedeo"
+        "title": "forni-amedeo",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 72,
@@ -2085,7 +2156,8 @@
         "Teatro_1": "Cividale",
         "Teatro_2": null,
         "Coordinate_teatro": "46.09362,13.43033",
-        "title": "piccaglia-luigi"
+        "title": "piccaglia-luigi",
+        "Causa_morte_norm": "Meningite"
     },
     {
         "Numero": 73,
@@ -2114,7 +2186,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "salvi-antonio-73"
+        "title": "salvi-antonio-73",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 74,
@@ -2143,7 +2216,8 @@
         "Teatro_1": "Oslavia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9712772,13.6127368",
-        "title": "santoni-gino"
+        "title": "santoni-gino",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 75,
@@ -2172,7 +2246,8 @@
         "Teatro_1": "Gorizia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.94413,13.62523",
-        "title": "scagliarini-enrico"
+        "title": "scagliarini-enrico",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 76,
@@ -2201,7 +2276,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "scagliarini-ettore"
+        "title": "scagliarini-ettore",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 77,
@@ -2230,7 +2306,8 @@
         "Teatro_1": "Trento",
         "Teatro_2": null,
         "Coordinate_teatro": "46.06642,11.12576",
-        "title": "scardovi-armando"
+        "title": "scardovi-armando",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 78,
@@ -2259,7 +2336,8 @@
         "Teatro_1": "Tolmezzo",
         "Teatro_2": null,
         "Coordinate_teatro": "46.40537,13.01584",
-        "title": "tommasini-torquato"
+        "title": "tommasini-torquato",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 79,
@@ -2288,7 +2366,8 @@
         "Teatro_1": "Cividale",
         "Teatro_2": null,
         "Coordinate_teatro": "46.09362,13.43033",
-        "title": "villani-nando"
+        "title": "villani-nando",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 80,
@@ -2317,7 +2396,8 @@
         "Teatro_1": "Monastero di Aquileia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.77721,13.36828",
-        "title": "zacchini-giuseppe"
+        "title": "zacchini-giuseppe",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 81,
@@ -2346,7 +2426,8 @@
         "Teatro_1": "Madoni",
         "Teatro_2": null,
         "Coordinate_teatro": "46.02261,13.70267",
-        "title": "ardizzoni-luigi-81"
+        "title": "ardizzoni-luigi-81",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 82,
@@ -2375,7 +2456,8 @@
         "Teatro_1": "Alessio (Albania)",
         "Teatro_2": null,
         "Coordinate_teatro": "41.77660,19.64743",
-        "title": "balletti-vincenzo"
+        "title": "balletti-vincenzo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 83,
@@ -2404,7 +2486,8 @@
         "Teatro_1": "Veliki Cribak",
         "Teatro_2": null,
         "Coordinate_teatro": "45.991356,13.672657",
-        "title": "baraldi-giuseppe"
+        "title": "baraldi-giuseppe",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 84,
@@ -2433,7 +2516,8 @@
         "Teatro_1": "Tripoli",
         "Teatro_2": null,
         "Coordinate_teatro": "32.89667,13.17779",
-        "title": "bertelli-antonio"
+        "title": "bertelli-antonio",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 85,
@@ -2462,7 +2546,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "borgatti-adolfo"
+        "title": "borgatti-adolfo",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 86,
@@ -2491,7 +2576,8 @@
         "Teatro_1": "Monte San Marco",
         "Teatro_2": null,
         "Coordinate_teatro": "45.92894,13.65338",
-        "title": "borgatti-carlo"
+        "title": "borgatti-carlo",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 87,
@@ -2520,7 +2606,8 @@
         "Teatro_1": "Sabotino",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9884151,13.6347815",
-        "title": "borgatti-vincenzo"
+        "title": "borgatti-vincenzo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 88,
@@ -2549,7 +2636,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "candini-alberto"
+        "title": "candini-alberto",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 89,
@@ -2578,7 +2666,8 @@
         "Teatro_1": "Pecinka",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8627325,13.6130637",
-        "title": "castaldini-giuseppe"
+        "title": "castaldini-giuseppe",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 90,
@@ -2607,7 +2696,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "costa-vincenzo"
+        "title": "costa-vincenzo",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 91,
@@ -2636,7 +2726,8 @@
         "Teatro_1": "Arsiero",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8035167,11.3504042",
-        "title": "filippini-pietro"
+        "title": "filippini-pietro",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 92,
@@ -2665,7 +2756,8 @@
         "Teatro_1": "Montefortino",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9083907,13.5372158",
-        "title": "forni-arturo"
+        "title": "forni-arturo",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 93,
@@ -2694,7 +2786,8 @@
         "Teatro_1": "Semendria",
         "Teatro_2": null,
         "Coordinate_teatro": "44.6662161,20.9267473",
-        "title": "gamberini-roberto"
+        "title": "gamberini-roberto",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 94,
@@ -2723,7 +2816,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "girotti-antonio"
+        "title": "girotti-antonio",
+        "Causa_morte_norm": "Esaurimento"
     },
     {
         "Numero": 95,
@@ -2752,7 +2846,8 @@
         "Teatro_1": "Q 144",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8215261,13.5693524",
-        "title": "girotti-carlo"
+        "title": "girotti-carlo",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 96,
@@ -2781,7 +2876,8 @@
         "Teatro_1": "Monte Zebio",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9261109,11.5070813",
-        "title": "lodi-enrico"
+        "title": "lodi-enrico",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 97,
@@ -2810,7 +2906,8 @@
         "Teatro_1": "Oslavia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9712772,13.6127368",
-        "title": "lolli-enrico"
+        "title": "lolli-enrico",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 98,
@@ -2839,7 +2936,8 @@
         "Teatro_1": "Monte Grappa",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8734305,11.7992028",
-        "title": "magagnoli-alberto"
+        "title": "magagnoli-alberto",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 99,
@@ -2868,7 +2966,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "masina-francesco"
+        "title": "masina-francesco",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 100,
@@ -2897,7 +2996,8 @@
         "Teatro_1": "Santa Lucia d'Isonzo",
         "Teatro_2": null,
         "Coordinate_teatro": "46.1531057,13.7410956",
-        "title": "mezzetti-raffaele"
+        "title": "mezzetti-raffaele",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 101,
@@ -2926,7 +3026,8 @@
         "Teatro_1": "Anhovo",
         "Teatro_2": null,
         "Coordinate_teatro": "46.0575774,13.6189693",
-        "title": "nannini-antonio"
+        "title": "nannini-antonio",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 102,
@@ -2955,7 +3056,8 @@
         "Teatro_1": "Q. 238",
         "Teatro_2": null,
         "Coordinate_teatro": "45.83119,13.59661",
-        "title": "nannini-giovanni"
+        "title": "nannini-giovanni",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 103,
@@ -2984,7 +3086,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "passerini-giuseppe"
+        "title": "passerini-giuseppe",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 104,
@@ -3013,7 +3116,8 @@
         "Teatro_1": "Tarhuna",
         "Teatro_2": null,
         "Coordinate_teatro": "32.437106,13.639685",
-        "title": "pirani-giuseppe"
+        "title": "pirani-giuseppe",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 105,
@@ -3042,7 +3146,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "serra-ivo"
+        "title": "serra-ivo",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 106,
@@ -3071,7 +3176,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "taddia-luigi"
+        "title": "taddia-luigi",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 107,
@@ -3100,7 +3206,8 @@
         "Teatro_1": "Monte Nero",
         "Teatro_2": null,
         "Coordinate_teatro": "46.2329148,13.6657946",
-        "title": "alberghini-ariodante"
+        "title": "alberghini-ariodante",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 108,
@@ -3129,7 +3236,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "alberghini-fulgenzio"
+        "title": "alberghini-fulgenzio",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 109,
@@ -3158,7 +3266,8 @@
         "Teatro_1": "Kuci",
         "Teatro_2": null,
         "Coordinate_teatro": "40.7757167,19.6570514",
-        "title": "alberghini-luigi"
+        "title": "alberghini-luigi",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 110,
@@ -3187,7 +3296,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "alberghini-vincenzo-110"
+        "title": "alberghini-vincenzo-110",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 111,
@@ -3216,7 +3326,8 @@
         "Teatro_1": "Peuma",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9614537,13.6131756",
-        "title": "alberghini-vincenzo-111"
+        "title": "alberghini-vincenzo-111",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 112,
@@ -3245,7 +3356,8 @@
         "Teatro_1": "Monte Merzly",
         "Teatro_2": null,
         "Coordinate_teatro": "46.2097247,13.5623672",
-        "title": "alberghini-virgilio"
+        "title": "alberghini-virgilio",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 113,
@@ -3274,7 +3386,8 @@
         "Teatro_1": "Quota 244",
         "Teatro_2": null,
         "Coordinate_teatro": "45.82653,13.60176",
-        "title": "ansaloni-filippo"
+        "title": "ansaloni-filippo",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 114,
@@ -3303,7 +3416,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ansaloni-vito-giovanni"
+        "title": "ansaloni-vito-giovanni",
+        "Causa_morte_norm": "Esaurimento"
     },
     {
         "Numero": 115,
@@ -3332,7 +3446,8 @@
         "Teatro_1": "Monte Kuk",
         "Teatro_2": null,
         "Coordinate_teatro": "46.02781,13.61996",
-        "title": "ardizzoni-giuseppe"
+        "title": "ardizzoni-giuseppe",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 116,
@@ -3361,7 +3476,8 @@
         "Teatro_1": "Flondar",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8080029,13.5956907",
-        "title": "bagni-angelo"
+        "title": "bagni-angelo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 117,
@@ -3390,7 +3506,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "bagni-giuseppe-117"
+        "title": "bagni-giuseppe-117",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 118,
@@ -3419,7 +3536,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "balboni-antonio-118"
+        "title": "balboni-antonio-118",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 119,
@@ -3448,7 +3566,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "balboni-augusto-119"
+        "title": "balboni-augusto-119",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 120,
@@ -3477,7 +3596,8 @@
         "Teatro_1": "Cormons",
         "Teatro_2": null,
         "Coordinate_teatro": "45.957791,13.4709541",
-        "title": "balboni-ferdinando-120"
+        "title": "balboni-ferdinando-120",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 121,
@@ -3506,7 +3626,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "balboni-ivo"
+        "title": "balboni-ivo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 122,
@@ -3535,7 +3656,8 @@
         "Teatro_1": "Gorizia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9441278,13.6252288",
-        "title": "baraldi-petronio"
+        "title": "baraldi-petronio",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 123,
@@ -3564,7 +3686,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "benfenati-giovanni"
+        "title": "benfenati-giovanni",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 124,
@@ -3593,7 +3716,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bergamini-petronio"
+        "title": "bergamini-petronio",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 125,
@@ -3622,7 +3746,8 @@
         "Teatro_1": "Giado Fessato",
         "Teatro_2": null,
         "Coordinate_teatro": "31.953044,12.026091",
-        "title": "bertelli-raffaele"
+        "title": "bertelli-raffaele",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 126,
@@ -3651,7 +3776,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bianchi-germano"
+        "title": "bianchi-germano",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 127,
@@ -3680,7 +3806,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bianchi-vincenzo"
+        "title": "bianchi-vincenzo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 128,
@@ -3709,7 +3836,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bonzagni-giovanni-128"
+        "title": "bonzagni-giovanni-128",
+        "Causa_morte_norm": "Malattia cardiaca"
     },
     {
         "Numero": 129,
@@ -3738,7 +3866,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.2455017,13.5791754",
-        "title": "bonzagni-giovanni-129"
+        "title": "bonzagni-giovanni-129",
+        "Causa_morte_norm": "Malattia cardiaca"
     },
     {
         "Numero": 130,
@@ -3767,7 +3896,8 @@
         "Teatro_1": "Cormons",
         "Teatro_2": null,
         "Coordinate_teatro": "45.957791,13.4709541",
-        "title": "borgatti-ettore"
+        "title": "borgatti-ettore",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 131,
@@ -3796,7 +3926,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "borgatti-pio"
+        "title": "borgatti-pio",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 132,
@@ -3825,7 +3956,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "busi-aldo"
+        "title": "busi-aldo",
+        "Causa_morte_norm": "Malaria"
     },
     {
         "Numero": 133,
@@ -3854,7 +3986,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "busi-giovanni"
+        "title": "busi-giovanni",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 134,
@@ -3883,7 +4016,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "busi-pier-paolo"
+        "title": "busi-pier-paolo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 135,
@@ -3912,7 +4046,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "busi-raffaele"
+        "title": "busi-raffaele",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 136,
@@ -3941,7 +4076,8 @@
         "Teatro_1": "Fayti",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8682632,13.6427504",
-        "title": "busi-vincenzo"
+        "title": "busi-vincenzo",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 137,
@@ -3970,7 +4106,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "candini-enrico"
+        "title": "candini-enrico",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 138,
@@ -3999,7 +4136,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "canettoli-giovanni"
+        "title": "canettoli-giovanni",
+        "Causa_morte_norm": "Affondamento"
     },
     {
         "Numero": 139,
@@ -4028,7 +4166,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "carpeggiani-alfonso"
+        "title": "carpeggiani-alfonso",
+        "Causa_morte_norm": "Malattia cardiaca"
     },
     {
         "Numero": 140,
@@ -4057,7 +4196,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "carpeggiani-filiberto"
+        "title": "carpeggiani-filiberto",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 141,
@@ -4086,7 +4226,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "cavicchi-domenico"
+        "title": "cavicchi-domenico",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 142,
@@ -4115,7 +4256,8 @@
         "Teatro_1": "Monfalcone",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8080945,13.5310806",
-        "title": "cazzoli-evaristo"
+        "title": "cazzoli-evaristo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 143,
@@ -4144,7 +4286,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "cristofori-evangelista"
+        "title": "cristofori-evangelista",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 144,
@@ -4173,7 +4316,8 @@
         "Teatro_1": "Asolone",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8736703,11.7452643",
-        "title": "doroteami-zozimo"
+        "title": "doroteami-zozimo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 145,
@@ -4202,7 +4346,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "facchini-gaetano"
+        "title": "facchini-gaetano",
+        "Causa_morte_norm": "Prigionia"
     },
     {
         "Numero": 146,
@@ -4231,7 +4376,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "fallavena-giuseppe"
+        "title": "fallavena-giuseppe",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 147,
@@ -4260,7 +4406,8 @@
         "Teatro_1": "Montello",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8081733,12.0973109",
-        "title": "fallavena-vincenzo"
+        "title": "fallavena-vincenzo",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 148,
@@ -4289,7 +4436,8 @@
         "Teatro_1": "Scolo Palumbo",
         "Teatro_2": null,
         "Coordinate_teatro": "45.6457471,12.5132561",
-        "title": "ferranti-primo"
+        "title": "ferranti-primo",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 149,
@@ -4318,7 +4466,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ferranti-raffaele"
+        "title": "ferranti-raffaele",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 150,
@@ -4347,7 +4496,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "fortini-giuseppe-150"
+        "title": "fortini-giuseppe-150",
+        "Causa_morte_norm": "Esaurimento"
     },
     {
         "Numero": 151,
@@ -4376,7 +4526,8 @@
         "Teatro_1": "Sober",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9185474,13.6445803",
-        "title": "fortini-primo"
+        "title": "fortini-primo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 152,
@@ -4405,7 +4556,8 @@
         "Teatro_1": "Monte Giove",
         "Teatro_2": null,
         "Coordinate_teatro": "45.77364,11.31798",
-        "title": "fortini-quinto"
+        "title": "fortini-quinto",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 153,
@@ -4434,7 +4586,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "fortini-virgilio-didimo"
+        "title": "fortini-virgilio-didimo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 154,
@@ -4463,7 +4616,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "fregni-ariodante"
+        "title": "fregni-ariodante",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 155,
@@ -4492,7 +4646,8 @@
         "Teatro_1": "Cormons",
         "Teatro_2": null,
         "Coordinate_teatro": "45.957791,13.4709541",
-        "title": "fumaroli-umberto"
+        "title": "fumaroli-umberto",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 156,
@@ -4521,7 +4676,8 @@
         "Teatro_1": "Monte Zugna",
         "Teatro_2": null,
         "Coordinate_teatro": "45.7994036,11.068885",
-        "title": "gallerani-alfonso"
+        "title": "gallerani-alfonso",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 157,
@@ -4550,7 +4706,8 @@
         "Teatro_1": "Raune",
         "Teatro_2": null,
         "Coordinate_teatro": "46.03221, 13.669281",
-        "title": "gallerani-cesare"
+        "title": "gallerani-cesare",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 158,
@@ -4579,7 +4736,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "gallerani-ettore"
+        "title": "gallerani-ettore",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 159,
@@ -4608,7 +4766,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "gallerani-giuseppe-159"
+        "title": "gallerani-giuseppe-159",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 160,
@@ -4637,7 +4796,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "gallerani-secondo"
+        "title": "gallerani-secondo",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 161,
@@ -4666,7 +4826,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "gallerani-vincenzo"
+        "title": "gallerani-vincenzo",
+        "Causa_morte_norm": "Prigionia"
     },
     {
         "Numero": 162,
@@ -4695,7 +4856,8 @@
         "Teatro_1": "Arcade sul Piave",
         "Teatro_2": null,
         "Coordinate_teatro": "45.7844916,12.2194084",
-        "title": "gessi-armando"
+        "title": "gessi-armando",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 163,
@@ -4724,7 +4886,8 @@
         "Teatro_1": "Marna",
         "Teatro_2": null,
         "Coordinate_teatro": "49.1953058,3.8615469",
-        "title": "giberti-amedeo-licinio"
+        "title": "giberti-amedeo-licinio",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 164,
@@ -4753,7 +4916,8 @@
         "Teatro_1": "Moriago della Battaglia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8669999,12.1032818",
-        "title": "govoni-aldo"
+        "title": "govoni-aldo",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 165,
@@ -4782,7 +4946,8 @@
         "Teatro_1": "Podgora",
         "Teatro_2": null,
         "Coordinate_teatro": "46.56902,15.64002",
-        "title": "govoni-cesare"
+        "title": "govoni-cesare",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 166,
@@ -4811,7 +4976,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "govoni-ciro"
+        "title": "govoni-ciro",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 167,
@@ -4840,7 +5006,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "govoni-colombo"
+        "title": "govoni-colombo",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 168,
@@ -4869,7 +5036,8 @@
         "Teatro_1": "Vittorio Veneto",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9897133,12.296477",
-        "title": "govoni-edmondo"
+        "title": "govoni-edmondo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 169,
@@ -4898,7 +5066,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "govoni-ernesto"
+        "title": "govoni-ernesto",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 170,
@@ -4927,7 +5096,8 @@
         "Teatro_1": "Quota 95",
         "Teatro_2": null,
         "Coordinate_teatro": "45.88834,13.62803",
-        "title": "govoni-giovanni-170"
+        "title": "govoni-giovanni-170",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 171,
@@ -4956,7 +5126,8 @@
         "Teatro_1": "Plava",
         "Teatro_2": null,
         "Coordinate_teatro": "46.0411219,13.5895793",
-        "title": "govoni-gustavo"
+        "title": "govoni-gustavo",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 172,
@@ -4985,7 +5156,8 @@
         "Teatro_1": "Monte Lemerle",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8345668,11.4715648",
-        "title": "govoni-luigi"
+        "title": "govoni-luigi",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 173,
@@ -5014,7 +5186,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "govoni-pompeo"
+        "title": "govoni-pompeo",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 174,
@@ -5043,7 +5216,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "govoni-romeo"
+        "title": "govoni-romeo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 175,
@@ -5072,7 +5246,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "govoni-ugo"
+        "title": "govoni-ugo",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 176,
@@ -5101,7 +5276,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "guaraldi-ugo"
+        "title": "guaraldi-ugo",
+        "Causa_morte_norm": "Malattia cardiaca"
     },
     {
         "Numero": 177,
@@ -5130,7 +5306,8 @@
         "Teatro_1": "Oslavia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9712772,13.6127368",
-        "title": "guizzardi-vincenzo"
+        "title": "guizzardi-vincenzo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 178,
@@ -5159,7 +5336,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "lamborghini-giuseppe-178"
+        "title": "lamborghini-giuseppe-178",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 179,
@@ -5188,7 +5366,8 @@
         "Teatro_1": "Thiene",
         "Teatro_2": null,
         "Coordinate_teatro": "45.7057667,11.4802561",
-        "title": "lamborghini-vincenzo"
+        "title": "lamborghini-vincenzo",
+        "Causa_morte_norm": "Gas"
     },
     {
         "Numero": 180,
@@ -5217,7 +5396,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "luppi-sergio"
+        "title": "luppi-sergio",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 181,
@@ -5246,7 +5426,8 @@
         "Teatro_1": "San Giovanni di Manzano",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9779201,13.4010809",
-        "title": "maccaferri-odoardo"
+        "title": "maccaferri-odoardo",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 182,
@@ -5275,7 +5456,8 @@
         "Teatro_1": "Piccolo Col Bricon",
         "Teatro_2": null,
         "Coordinate_teatro": "46.2771789,11.7454334",
-        "title": "malaguti-cesare"
+        "title": "malaguti-cesare",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 183,
@@ -5304,7 +5486,8 @@
         "Teatro_1": "Scolo Palumbo",
         "Teatro_2": null,
         "Coordinate_teatro": "45.6457471,12.5132561",
-        "title": "marzocchi-alfredo"
+        "title": "marzocchi-alfredo",
+        "Causa_morte_norm": "Caduto in battaglia"
     },
     {
         "Numero": 184,
@@ -5333,7 +5516,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "melloni-partemio"
+        "title": "melloni-partemio",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 185,
@@ -5362,7 +5546,8 @@
         "Teatro_1": "Cima Dodici",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9974378,11.4682039",
-        "title": "melloni-pietro"
+        "title": "melloni-pietro",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 186,
@@ -5391,7 +5576,8 @@
         "Teatro_1": "Monte Lemerle",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8345668,11.4715648",
-        "title": "melloni-pietro-detto-raffaele"
+        "title": "melloni-pietro-detto-raffaele",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 187,
@@ -5420,7 +5606,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "melloni-tancredi"
+        "title": "melloni-tancredi",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 188,
@@ -5449,7 +5636,8 @@
         "Teatro_1": "Monte Cimone",
         "Teatro_2": null,
         "Coordinate_teatro": "45.96007,11.26348",
-        "title": "montanari-antonio"
+        "title": "montanari-antonio",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 189,
@@ -5478,7 +5666,8 @@
         "Teatro_1": "Castagnevizza",
         "Teatro_2": null,
         "Coordinate_teatro": "45.85981415,13.6498540204545",
-        "title": "montosi-raffaele"
+        "title": "montosi-raffaele",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 190,
@@ -5507,7 +5696,8 @@
         "Teatro_1": "Quota 85",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8063539,13.5582607",
-        "title": "pedrazzi-giovanni"
+        "title": "pedrazzi-giovanni",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 191,
@@ -5536,7 +5726,8 @@
         "Teatro_1": "Monte Grappa",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8734305,11.7992028",
-        "title": "pedrazzi-onorio"
+        "title": "pedrazzi-onorio",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 192,
@@ -5565,7 +5756,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "petazzoni-flaminio"
+        "title": "petazzoni-flaminio",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 193,
@@ -5594,7 +5786,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "petazzoni-vincenzo"
+        "title": "petazzoni-vincenzo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 194,
@@ -5623,7 +5816,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "pezzini-giacomo"
+        "title": "pezzini-giacomo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 195,
@@ -5652,7 +5846,8 @@
         "Teatro_1": "Quota 110 Duino",
         "Teatro_2": null,
         "Coordinate_teatro": "45.7969427,13.5924552",
-        "title": "po-vilario-emilio"
+        "title": "po-vilario-emilio",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 196,
@@ -5681,7 +5876,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "poluzzi-giuseppe"
+        "title": "poluzzi-giuseppe",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 197,
@@ -5710,7 +5906,8 @@
         "Teatro_1": "Monte Santo",
         "Teatro_2": null,
         "Coordinate_teatro": "45.996944, 13.657731",
-        "title": "rabbi-emanuele-giorgio"
+        "title": "rabbi-emanuele-giorgio",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 198,
@@ -5739,7 +5936,8 @@
         "Teatro_1": "Podgora",
         "Teatro_2": null,
         "Coordinate_teatro": "46.56902,15.64002",
-        "title": "resca-adolfo"
+        "title": "resca-adolfo",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 199,
@@ -5768,7 +5966,8 @@
         "Teatro_1": "Sabotino",
         "Teatro_2": null,
         "Coordinate_teatro": "45.98842,13.63478",
-        "title": "resca-geremia"
+        "title": "resca-geremia",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 200,
@@ -5797,7 +5996,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "rinaldi-florindo"
+        "title": "rinaldi-florindo",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 201,
@@ -5826,7 +6026,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "roncarati-filiberto"
+        "title": "roncarati-filiberto",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 202,
@@ -5855,7 +6056,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "sgarbi-ettore"
+        "title": "sgarbi-ettore",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 203,
@@ -5884,7 +6086,8 @@
         "Teatro_1": "Bainsizza",
         "Teatro_2": null,
         "Coordinate_teatro": "46.01271,13.84449",
-        "title": "soatti-vincenzo"
+        "title": "soatti-vincenzo",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 204,
@@ -5913,7 +6116,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "soffritti-alfonso"
+        "title": "soffritti-alfonso",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 205,
@@ -5942,7 +6146,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "soldati-antonio"
+        "title": "soldati-antonio",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 206,
@@ -5971,7 +6176,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "tassinari-adolfo"
+        "title": "tassinari-adolfo",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 207,
@@ -6000,7 +6206,8 @@
         "Teatro_1": "Gorizia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9441278,13.6252288",
-        "title": "tassinari-amanzio"
+        "title": "tassinari-amanzio",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 208,
@@ -6029,7 +6236,8 @@
         "Teatro_1": "Plava",
         "Teatro_2": null,
         "Coordinate_teatro": "46.04112,13.58958",
-        "title": "tassinari-enrico"
+        "title": "tassinari-enrico",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 209,
@@ -6058,7 +6266,8 @@
         "Teatro_1": "Ortigara",
         "Teatro_2": null,
         "Coordinate_teatro": "46.0074338,11.5072706",
-        "title": "tassinari-gualtiero"
+        "title": "tassinari-gualtiero",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 210,
@@ -6087,7 +6296,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "tassinari-pietro"
+        "title": "tassinari-pietro",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 211,
@@ -6116,7 +6326,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "tassinari-primo"
+        "title": "tassinari-primo",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 212,
@@ -6145,7 +6356,8 @@
         "Teatro_1": "Quota 1050 Macedonia",
         "Teatro_2": null,
         "Coordinate_teatro": "41.0421466,21.5535691",
-        "title": "trevisani-adolfo"
+        "title": "trevisani-adolfo",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 213,
@@ -6174,7 +6386,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "vancini-alfonso"
+        "title": "vancini-alfonso",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 214,
@@ -6203,7 +6416,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "vancini-luigi"
+        "title": "vancini-luigi",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 215,
@@ -6232,7 +6446,8 @@
         "Teatro_1": "Monte San Gabriele",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9763267,13.6775164",
-        "title": "vancini-mario"
+        "title": "vancini-mario",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 216,
@@ -6261,7 +6476,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "balboni-antonio-216"
+        "title": "balboni-antonio-216",
+        "Causa_morte_norm": "Malaria"
     },
     {
         "Numero": 217,
@@ -6290,7 +6506,8 @@
         "Teatro_1": "Quota 366",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8682632,13.6427504",
-        "title": "balboni-luigi"
+        "title": "balboni-luigi",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 218,
@@ -6319,7 +6536,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bonzagni-angelo"
+        "title": "bonzagni-angelo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 219,
@@ -6348,7 +6566,8 @@
         "Teatro_1": "Castagnevizza",
         "Teatro_2": null,
         "Coordinate_teatro": "45.85981415,13.6498540204545",
-        "title": "bonzagni-armando"
+        "title": "bonzagni-armando",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 220,
@@ -6377,7 +6596,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bonzagni-augusto"
+        "title": "bonzagni-augusto",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 221,
@@ -6406,7 +6626,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "bovinelli-giuseppe"
+        "title": "bovinelli-giuseppe",
+        "Causa_morte_norm": "Prigionia"
     },
     {
         "Numero": 222,
@@ -6435,7 +6656,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "chiari-armando"
+        "title": "chiari-armando",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 223,
@@ -6464,7 +6686,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "chiari-gherardo"
+        "title": "chiari-gherardo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 224,
@@ -6493,7 +6716,8 @@
         "Teatro_1": "Monte Giove",
         "Teatro_2": null,
         "Coordinate_teatro": "45.77364,11.31798",
-        "title": "chiari-oreste"
+        "title": "chiari-oreste",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 225,
@@ -6522,7 +6746,8 @@
         "Teatro_1": "Quota 238",
         "Teatro_2": null,
         "Coordinate_teatro": "45.83128,13.59653",
-        "title": "farioli-celso"
+        "title": "farioli-celso",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 226,
@@ -6551,7 +6776,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "fava-venanzio"
+        "title": "fava-venanzio",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 227,
@@ -6580,7 +6806,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ferioli-eliseo"
+        "title": "ferioli-eliseo",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 228,
@@ -6609,7 +6836,8 @@
         "Teatro_1": "Castagnevizza",
         "Teatro_2": null,
         "Coordinate_teatro": "45.85981,13.64985",
-        "title": "ferioli-umberto"
+        "title": "ferioli-umberto",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 229,
@@ -6638,7 +6866,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "fortini-antonio"
+        "title": "fortini-antonio",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 230,
@@ -6667,7 +6896,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "fortini-celinio"
+        "title": "fortini-celinio",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 231,
@@ -6696,7 +6926,8 @@
         "Teatro_1": "Cappelletto (Podgora)",
         "Teatro_2": null,
         "Coordinate_teatro": "46.5690167,15.6400217",
-        "title": "fortini-ernesto"
+        "title": "fortini-ernesto",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 232,
@@ -6725,7 +6956,8 @@
         "Teatro_1": "Podgora",
         "Teatro_2": null,
         "Coordinate_teatro": "46.5690167,15.6400217",
-        "title": "fortini-gaetano"
+        "title": "fortini-gaetano",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 233,
@@ -6754,7 +6986,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "gallerani-giuseppe-233"
+        "title": "gallerani-giuseppe-233",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 234,
@@ -6783,7 +7016,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "lazzari-felice"
+        "title": "lazzari-felice",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 235,
@@ -6812,7 +7046,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "maini-guglielmo"
+        "title": "maini-guglielmo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 236,
@@ -6841,7 +7076,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "malaguti-giorgio"
+        "title": "malaguti-giorgio",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 237,
@@ -6870,7 +7106,8 @@
         "Teatro_1": "Conca di Plezzo",
         "Teatro_2": null,
         "Coordinate_teatro": "46.3385467,13.5525933",
-        "title": "manderioli-celso"
+        "title": "manderioli-celso",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 238,
@@ -6899,7 +7136,8 @@
         "Teatro_1": "Monte Nero",
         "Teatro_2": null,
         "Coordinate_teatro": "46.2329148,13.6657946",
-        "title": "manderioli-luigi"
+        "title": "manderioli-luigi",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 239,
@@ -6928,7 +7166,8 @@
         "Teatro_1": "Conca di Plezzo",
         "Teatro_2": null,
         "Coordinate_teatro": "46.3385467,13.5525933",
-        "title": "resca-paolo"
+        "title": "resca-paolo",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 240,
@@ -6957,7 +7196,8 @@
         "Teatro_1": "Monte Merzli",
         "Teatro_2": null,
         "Coordinate_teatro": "46.192269,13.3635781",
-        "title": "tassinari-ivo"
+        "title": "tassinari-ivo",
+        "Causa_morte_norm": "Gas"
     },
     {
         "Numero": 241,
@@ -6986,7 +7226,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "volta-gaetano"
+        "title": "volta-gaetano",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 242,
@@ -7015,7 +7256,8 @@
         "Teatro_1": "Cormons",
         "Teatro_2": null,
         "Coordinate_teatro": "45.957791,13.4709541",
-        "title": "zanarini-giuseppe"
+        "title": "zanarini-giuseppe",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 243,
@@ -7044,7 +7286,8 @@
         "Teatro_1": "Monte Cucco",
         "Teatro_2": null,
         "Coordinate_teatro": "46.1441,13.6241",
-        "title": "accorsi-pancrazio"
+        "title": "accorsi-pancrazio",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 244,
@@ -7073,7 +7316,8 @@
         "Teatro_1": "Podgora",
         "Teatro_2": null,
         "Coordinate_teatro": "46.56902,15.64002",
-        "title": "accorsi-pasquino"
+        "title": "accorsi-pasquino",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 245,
@@ -7102,7 +7346,8 @@
         "Teatro_1": "Piccolo Col Bricon",
         "Teatro_2": null,
         "Coordinate_teatro": "46.2771789,11.7454334",
-        "title": "accorsi-pietro"
+        "title": "accorsi-pietro",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 246,
@@ -7131,7 +7376,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bagni-luigi"
+        "title": "bagni-luigi",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 247,
@@ -7160,7 +7406,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "balboni-augusto-247"
+        "title": "balboni-augusto-247",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 248,
@@ -7189,7 +7436,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "balboni-enrico"
+        "title": "balboni-enrico",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 249,
@@ -7218,7 +7466,8 @@
         "Teatro_1": "Argine di San Marco",
         "Teatro_2": null,
         "Coordinate_teatro": "45.6631822,12.5006479",
-        "title": "biagi-giuseppe"
+        "title": "biagi-giuseppe",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 250,
@@ -7247,7 +7496,8 @@
         "Teatro_1": "Dosso Faiti",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8682632,13.6427504",
-        "title": "bonzagni-giosue"
+        "title": "bonzagni-giosue",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 251,
@@ -7276,7 +7526,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "branchini-aldo"
+        "title": "branchini-aldo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 252,
@@ -7305,7 +7556,8 @@
         "Teatro_1": "Fusine in Val Posina",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8005989,11.2910095",
-        "title": "branchini-giovanni"
+        "title": "branchini-giovanni",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 253,
@@ -7334,7 +7586,8 @@
         "Teatro_1": "Sabotino",
         "Teatro_2": null,
         "Coordinate_teatro": "45.98842,13.63478",
-        "title": "cardiani-ottavio"
+        "title": "cardiani-ottavio",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 254,
@@ -7363,7 +7616,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "cariani-giuseppe"
+        "title": "cariani-giuseppe",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 255,
@@ -7392,7 +7646,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "casoni-angelo"
+        "title": "casoni-angelo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 256,
@@ -7421,7 +7676,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "casoni-arnoldo"
+        "title": "casoni-arnoldo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 257,
@@ -7450,7 +7706,8 @@
         "Teatro_1": "Sabotino",
         "Teatro_2": null,
         "Coordinate_teatro": "45.98842,13.63478",
-        "title": "casoni-carlo"
+        "title": "casoni-carlo",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 258,
@@ -7479,7 +7736,8 @@
         "Teatro_1": "Monte Cucco",
         "Teatro_2": null,
         "Coordinate_teatro": "46.1441,13.6241",
-        "title": "casoni-fioravante"
+        "title": "casoni-fioravante",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 259,
@@ -7508,7 +7766,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "cavallini-glicerio"
+        "title": "cavallini-glicerio",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 260,
@@ -7537,7 +7796,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "cavallini-luigi"
+        "title": "cavallini-luigi",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 261,
@@ -7566,7 +7826,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "cervescati-federico"
+        "title": "cervescati-federico",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 262,
@@ -7595,7 +7856,8 @@
         "Teatro_1": "Fossalta di Piave",
         "Teatro_2": null,
         "Coordinate_teatro": "45.6457471,12.5132561",
-        "title": "fabbri-armando"
+        "title": "fabbri-armando",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 263,
@@ -7624,7 +7886,8 @@
         "Teatro_1": "Cormons",
         "Teatro_2": null,
         "Coordinate_teatro": "45.957791,13.4709541",
-        "title": "fabbri-luigi"
+        "title": "fabbri-luigi",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 264,
@@ -7653,7 +7916,8 @@
         "Teatro_1": "Quota 208 sud del Carso",
         "Teatro_2": null,
         "Coordinate_teatro": "45.83356,13.57661",
-        "title": "falzoni-carlo"
+        "title": "falzoni-carlo",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 265,
@@ -7682,7 +7946,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ferioli-francesco"
+        "title": "ferioli-francesco",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 266,
@@ -7711,7 +7976,8 @@
         "Teatro_1": "Monte Spinoncia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9126,11.8665671",
-        "title": "ferioli-luigi-secondo"
+        "title": "ferioli-luigi-secondo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 267,
@@ -7740,7 +8006,8 @@
         "Teatro_1": "Col del Rosso",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8639643,11.5984803",
-        "title": "ferioli-roberto"
+        "title": "ferioli-roberto",
+        "Causa_morte_norm": "Prigionia"
     },
     {
         "Numero": 268,
@@ -7769,7 +8036,8 @@
         "Teatro_1": "Nogaredo del Torre",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9134915,13.3775006",
-        "title": "fortini-attilio"
+        "title": "fortini-attilio",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 269,
@@ -7798,7 +8066,8 @@
         "Teatro_1": "Quota 108",
         "Teatro_2": null,
         "Coordinate_teatro": "45.91085,13.65024",
-        "title": "gallerani-medardo"
+        "title": "gallerani-medardo",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 270,
@@ -7827,7 +8096,8 @@
         "Teatro_1": "Oslavia",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9712772,13.6127368",
-        "title": "govoni-giovanni-270"
+        "title": "govoni-giovanni-270",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 271,
@@ -7856,7 +8126,8 @@
         "Teatro_1": "Tarhuna",
         "Teatro_2": null,
         "Coordinate_teatro": "32.437106,13.639685",
-        "title": "guidoboni-agostino"
+        "title": "guidoboni-agostino",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 272,
@@ -7885,7 +8156,8 @@
         "Teatro_1": "Sabotino",
         "Teatro_2": null,
         "Coordinate_teatro": "45.98842,13.63478",
-        "title": "guidoboni-aldo"
+        "title": "guidoboni-aldo",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 273,
@@ -7914,7 +8186,8 @@
         "Teatro_1": "Monte Merzli",
         "Teatro_2": null,
         "Coordinate_teatro": "46.192269,13.3635781",
-        "title": "guidoboni-umberto"
+        "title": "guidoboni-umberto",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 274,
@@ -7943,7 +8216,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "lamborghini-giuseppe-274"
+        "title": "lamborghini-giuseppe-274",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 275,
@@ -7972,7 +8246,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "maggi-alberto"
+        "title": "maggi-alberto",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 276,
@@ -8001,7 +8276,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "maggi-augusto"
+        "title": "maggi-augusto",
+        "Causa_morte_norm": "Meningite"
     },
     {
         "Numero": 277,
@@ -8030,7 +8306,8 @@
         "Teatro_1": "Monte Forno",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9787578,11.5064662",
-        "title": "melga-carlo-paolo"
+        "title": "melga-carlo-paolo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 278,
@@ -8059,7 +8336,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "muzzioli-augusto"
+        "title": "muzzioli-augusto",
+        "Causa_morte_norm": "Esaurimento"
     },
     {
         "Numero": 279,
@@ -8088,7 +8366,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "pistani-armando"
+        "title": "pistani-armando",
+        "Causa_morte_norm": "Affondamento"
     },
     {
         "Numero": 280,
@@ -8117,7 +8396,8 @@
         "Teatro_1": "Grotta del Lago",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9793356,11.5160739",
-        "title": "rodolfi-virgilio"
+        "title": "rodolfi-virgilio",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 281,
@@ -8146,7 +8426,8 @@
         "Teatro_1": "Campo Rovere",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8800694,11.4865887",
-        "title": "sitta-luigi"
+        "title": "sitta-luigi",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 282,
@@ -8175,7 +8456,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "soffritti-luigi"
+        "title": "soffritti-luigi",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 283,
@@ -8204,7 +8486,8 @@
         "Teatro_1": "Monte Merzli",
         "Teatro_2": null,
         "Coordinate_teatro": "46.192269,13.3635781",
-        "title": "taddia-ruggero"
+        "title": "taddia-ruggero",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 284,
@@ -8233,7 +8516,8 @@
         "Teatro_1": "Quota 85 Monfalcone",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8061026,13.559030027917",
-        "title": "tassinari-armando"
+        "title": "tassinari-armando",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 285,
@@ -8262,7 +8546,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "tassinari-secondo"
+        "title": "tassinari-secondo",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 286,
@@ -8291,7 +8576,8 @@
         "Teatro_1": "Monte Merzli",
         "Teatro_2": null,
         "Coordinate_teatro": "46.192269,13.3635781",
-        "title": "vancini-innocente"
+        "title": "vancini-innocente",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 287,
@@ -8320,7 +8606,8 @@
         "Teatro_1": "Monte Grappa",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8734305,11.7992028",
-        "title": "bagni-giuseppe-287"
+        "title": "bagni-giuseppe-287",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 288,
@@ -8349,7 +8636,8 @@
         "Teatro_1": "Podgora",
         "Teatro_2": null,
         "Coordinate_teatro": "46.56902,15.64002",
-        "title": "balboni-rodolfo"
+        "title": "balboni-rodolfo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 289,
@@ -8378,7 +8666,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "baruffaldi-natale"
+        "title": "baruffaldi-natale",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 290,
@@ -8407,7 +8696,8 @@
         "Teatro_1": "Monte Lemerle",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8345668,11.4715648",
-        "title": "bregoli-arrigo"
+        "title": "bregoli-arrigo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 291,
@@ -8436,7 +8726,8 @@
         "Teatro_1": "Vertoiba",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9159781,13.6339114",
-        "title": "bregoli-battista"
+        "title": "bregoli-battista",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 292,
@@ -8465,7 +8756,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bregoli-luigi"
+        "title": "bregoli-luigi",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 293,
@@ -8494,7 +8786,8 @@
         "Teatro_1": "Monte Rosso",
         "Teatro_2": null,
         "Coordinate_teatro": "46.2633195,13.6683527",
-        "title": "fallavena-sperindio"
+        "title": "fallavena-sperindio",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 294,
@@ -8523,7 +8816,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ferioli-giuseppe"
+        "title": "ferioli-giuseppe",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 295,
@@ -8552,7 +8846,8 @@
         "Teatro_1": "Monte Fiore",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9164239,11.5999747",
-        "title": "ferioli-luigi"
+        "title": "ferioli-luigi",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 296,
@@ -8581,7 +8876,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ferranti-biagio"
+        "title": "ferranti-biagio",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 297,
@@ -8610,7 +8906,8 @@
         "Teatro_1": "Bosco Cappuccio",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8758865,13.5353955",
-        "title": "ferranti-umberto"
+        "title": "ferranti-umberto",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 298,
@@ -8639,7 +8936,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "gallerani-giuseppe-298"
+        "title": "gallerani-giuseppe-298",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 299,
@@ -8668,7 +8966,8 @@
         "Teatro_1": "Capo Sile",
         "Teatro_2": null,
         "Coordinate_teatro": "45.5796389,12.5509157",
-        "title": "ghisellini-dino"
+        "title": "ghisellini-dino",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 300,
@@ -8697,7 +8996,8 @@
         "Teatro_1": "Quota 208",
         "Teatro_2": null,
         "Coordinate_teatro": "45.83356,13.57661",
-        "title": "pirani-aldo"
+        "title": "pirani-aldo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 301,
@@ -8726,7 +9026,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "pirani-fioravante"
+        "title": "pirani-fioravante",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 302,
@@ -8755,7 +9056,8 @@
         "Teatro_1": "Monte Interrotto",
         "Teatro_2": null,
         "Coordinate_teatro": "45.898913,11.4796785",
-        "title": "pirani-francesco"
+        "title": "pirani-francesco",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 303,
@@ -8784,7 +9086,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "salvi-antonio-303"
+        "title": "salvi-antonio-303",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 304,
@@ -8813,7 +9116,8 @@
         "Teatro_1": "Cima Mandria",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8805958,11.843346",
-        "title": "sgarzi-alberto"
+        "title": "sgarzi-alberto",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 305,
@@ -8842,7 +9146,8 @@
         "Teatro_1": "Santa Maria di Tolmino",
         "Teatro_2": null,
         "Coordinate_teatro": "46.1531057,13.7410956",
-        "title": "tassinari-alfeo"
+        "title": "tassinari-alfeo",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 306,
@@ -8871,7 +9176,8 @@
         "Teatro_1": "Valona",
         "Teatro_2": null,
         "Coordinate_teatro": "40.4695908,19.4837727",
-        "title": "tassinari-raffaele"
+        "title": "tassinari-raffaele",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 307,
@@ -8900,7 +9206,8 @@
         "Teatro_1": "Bainsizza",
         "Teatro_2": null,
         "Coordinate_teatro": "46.01271,13.84449",
-        "title": "tassinari-rodolfo"
+        "title": "tassinari-rodolfo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 308,
@@ -8929,7 +9236,8 @@
         "Teatro_1": "Podgora",
         "Teatro_2": null,
         "Coordinate_teatro": "46.56902,15.64002",
-        "title": "tosi-alessandro"
+        "title": "tosi-alessandro",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 309,
@@ -8958,7 +9266,8 @@
         "Teatro_1": "Quota 75 Flondar",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8080029,13.5956907",
-        "title": "vancini-giuseppe"
+        "title": "vancini-giuseppe",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 310,
@@ -8987,7 +9296,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "venturi-mauro"
+        "title": "venturi-mauro",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 311,
@@ -9016,7 +9326,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "alberghini-vincenzo-311"
+        "title": "alberghini-vincenzo-311",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 312,
@@ -9045,7 +9356,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "balboni-agostino"
+        "title": "balboni-agostino",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 313,
@@ -9074,7 +9386,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "balboni-aldo"
+        "title": "balboni-aldo",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 314,
@@ -9103,7 +9416,8 @@
         "Teatro_1": "Val d'Astico",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8824468,11.344561",
-        "title": "balboni-armando"
+        "title": "balboni-armando",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 315,
@@ -9132,7 +9446,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "balboni-ugo"
+        "title": "balboni-ugo",
+        "Causa_morte_norm": "Malattia cardiaca"
     },
     {
         "Numero": 316,
@@ -9161,7 +9476,8 @@
         "Teatro_1": "Monte Lemerle",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8345668,11.4715648",
-        "title": "battaglia-pietro"
+        "title": "battaglia-pietro",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 317,
@@ -9190,7 +9506,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "borgatti-luigi"
+        "title": "borgatti-luigi",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 318,
@@ -9219,7 +9536,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "caselli-giuseppe"
+        "title": "caselli-giuseppe",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 319,
@@ -9248,7 +9566,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "diegoli-antonio"
+        "title": "diegoli-antonio",
+        "Causa_morte_norm": "Tifo"
     },
     {
         "Numero": 320,
@@ -9277,7 +9596,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "diegoli-claudio"
+        "title": "diegoli-claudio",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 321,
@@ -9306,7 +9626,8 @@
         "Teatro_1": "Tagliamento",
         "Teatro_2": null,
         "Coordinate_teatro": "46.173522,12.98242",
-        "title": "ferioli-alberto"
+        "title": "ferioli-alberto",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 322,
@@ -9335,7 +9656,8 @@
         "Teatro_1": "Pecinca",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8627325,13.6130637",
-        "title": "ferioli-olindo"
+        "title": "ferioli-olindo",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 323,
@@ -9364,7 +9686,8 @@
         "Teatro_1": "Monte Radioso (Arsiero)",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8035167,11.3504042",
-        "title": "ferioli-raffaele"
+        "title": "ferioli-raffaele",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 324,
@@ -9393,7 +9716,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "govoni-quirico"
+        "title": "govoni-quirico",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 325,
@@ -9422,7 +9746,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "lamborghini-arnaldo"
+        "title": "lamborghini-arnaldo",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 326,
@@ -9451,7 +9776,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "laurenti-pietro"
+        "title": "laurenti-pietro",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 327,
@@ -9480,7 +9806,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "minelli-amintore"
+        "title": "minelli-amintore",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 328,
@@ -9509,7 +9836,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "minelli-raffaele"
+        "title": "minelli-raffaele",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 329,
@@ -9538,7 +9866,8 @@
         "Teatro_1": "Tarhuna",
         "Teatro_2": null,
         "Coordinate_teatro": "32.437106,13.639685",
-        "title": "passerini-vittorio-329"
+        "title": "passerini-vittorio-329",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 330,
@@ -9567,7 +9896,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "pirani-giovanni"
+        "title": "pirani-giovanni",
+        "Causa_morte_norm": "Ferita da combattimento"
     },
     {
         "Numero": 331,
@@ -9596,7 +9926,8 @@
         "Teatro_1": "Cormons",
         "Teatro_2": null,
         "Coordinate_teatro": "45.957791,13.4709541",
-        "title": "po-fioravante"
+        "title": "po-fioravante",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 332,
@@ -9625,7 +9956,8 @@
         "Teatro_1": "Candelù",
         "Teatro_2": null,
         "Coordinate_teatro": "45.7364337,12.3721403",
-        "title": "salvi-vincenzo"
+        "title": "salvi-vincenzo",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 333,
@@ -9654,7 +9986,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "sandoni-antonio"
+        "title": "sandoni-antonio",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 334,
@@ -9683,7 +10016,8 @@
         "Teatro_1": "Caporetto",
         "Teatro_2": null,
         "Coordinate_teatro": "46.24550,13.57918",
-        "title": "tassinari-saulle"
+        "title": "tassinari-saulle",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 335,
@@ -9712,7 +10046,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ardizzoni-adolfo"
+        "title": "ardizzoni-adolfo",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 336,
@@ -9741,7 +10076,8 @@
         "Teatro_1": "Vertoiba",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9159781,13.6339114",
-        "title": "ardizzoni-enrico"
+        "title": "ardizzoni-enrico",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 337,
@@ -9770,7 +10106,8 @@
         "Teatro_1": "Quota 285 Castagnevizza",
         "Teatro_2": null,
         "Coordinate_teatro": "45.85846,13.62803",
-        "title": "ardizzoni-luigi-337"
+        "title": "ardizzoni-luigi-337",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 338,
@@ -9799,7 +10136,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ardizzoni-primo"
+        "title": "ardizzoni-primo",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 339,
@@ -9828,7 +10166,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "ardizzoni-vladimiro"
+        "title": "ardizzoni-vladimiro",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 340,
@@ -9857,7 +10196,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bagni-fioravante"
+        "title": "bagni-fioravante",
+        "Causa_morte_norm": "Esaurimento"
     },
     {
         "Numero": 341,
@@ -9886,7 +10226,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bagni-giuseppe-341"
+        "title": "bagni-giuseppe-341",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 342,
@@ -9915,7 +10256,8 @@
         "Teatro_1": "Forcella Molon",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8710849,11.2755578",
-        "title": "bagni-roberto"
+        "title": "bagni-roberto",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 343,
@@ -9944,7 +10286,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bergamini-adelmo"
+        "title": "bergamini-adelmo",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 344,
@@ -9973,7 +10316,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "bregoli-andrea"
+        "title": "bregoli-andrea",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 345,
@@ -10002,7 +10346,8 @@
         "Teatro_1": "Vodil",
         "Teatro_2": null,
         "Coordinate_teatro": "46.20729,13.72227",
-        "title": "bretta-alfonso"
+        "title": "bretta-alfonso",
+        "Causa_morte_norm": "Proiettile"
     },
     {
         "Numero": 346,
@@ -10031,7 +10376,8 @@
         "Teatro_1": "San Daniele del Friuli",
         "Teatro_2": null,
         "Coordinate_teatro": "46.1600518,13.0106486",
-        "title": "bretta-giuseppe"
+        "title": "bretta-giuseppe",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 347,
@@ -10060,7 +10406,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "cristofori-pietro"
+        "title": "cristofori-pietro",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 348,
@@ -10089,7 +10436,8 @@
         "Teatro_1": "Vodice",
         "Teatro_2": null,
         "Coordinate_teatro": "46.01912,13.62987",
-        "title": "diozzi-manfredo"
+        "title": "diozzi-manfredo",
+        "Causa_morte_norm": "Disperso"
     },
     {
         "Numero": 349,
@@ -10118,7 +10466,8 @@
         "Teatro_1": "San Francesco",
         "Teatro_2": null,
         "Coordinate_teatro": "45.88109,11.63405",
-        "title": "dotti-oreste"
+        "title": "dotti-oreste",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 350,
@@ -10147,7 +10496,8 @@
         "Teatro_1": "Monte Zovetto",
         "Teatro_2": null,
         "Coordinate_teatro": "45.8258644,11.4531477",
-        "title": "fabbri-andrea"
+        "title": "fabbri-andrea",
+        "Causa_morte_norm": "Scheggia"
     },
     {
         "Numero": 351,
@@ -10176,7 +10526,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "falavena-ilario"
+        "title": "falavena-ilario",
+        "Causa_morte_norm": "Congelamento"
     },
     {
         "Numero": 352,
@@ -10205,7 +10556,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "fergnani-giuseppe"
+        "title": "fergnani-giuseppe",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 353,
@@ -10234,7 +10586,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "fortini-giuseppe-353"
+        "title": "fortini-giuseppe-353",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 354,
@@ -10263,7 +10616,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "fortini-umberto"
+        "title": "fortini-umberto",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 355,
@@ -10292,7 +10646,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "giovannini-gottardo"
+        "title": "giovannini-gottardo",
+        "Causa_morte_norm": "Prigionia"
     },
     {
         "Numero": 356,
@@ -10321,7 +10676,8 @@
         "Teatro_1": "Passo di Zagradon",
         "Teatro_2": null,
         "Coordinate_teatro": "46.1842951,13.6573962",
-        "title": "guazzaloca-emintore"
+        "title": "guazzaloca-emintore",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 357,
@@ -10350,7 +10706,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "lenzi-balduino"
+        "title": "lenzi-balduino",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 358,
@@ -10379,7 +10736,8 @@
         "Teatro_1": "Bosco Varagna",
         "Teatro_2": null,
         "Coordinate_teatro": "45.9566147,11.328594",
-        "title": "lenzi-luigi"
+        "title": "lenzi-luigi",
+        "Causa_morte_norm": "Granata"
     },
     {
         "Numero": 359,
@@ -10408,7 +10766,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "nannini-giuseppe"
+        "title": "nannini-giuseppe",
+        "Causa_morte_norm": "Tubercolosi"
     },
     {
         "Numero": 360,
@@ -10437,7 +10796,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "pareschi-flaminio"
+        "title": "pareschi-flaminio",
+        "Causa_morte_norm": "Affondamento"
     },
     {
         "Numero": 361,
@@ -10466,7 +10826,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "pirani-augusto"
+        "title": "pirani-augusto",
+        "Causa_morte_norm": "Polmonite"
     },
     {
         "Numero": 362,
@@ -10495,7 +10856,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "pirozzi-ugo"
+        "title": "pirozzi-ugo",
+        "Causa_morte_norm": "Malattie intestinali"
     },
     {
         "Numero": 363,
@@ -10524,7 +10886,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "pola-augusto"
+        "title": "pola-augusto",
+        "Causa_morte_norm": "Malattia"
     },
     {
         "Numero": 364,
@@ -10553,7 +10916,8 @@
         "Teatro_1": null,
         "Teatro_2": null,
         "Coordinate_teatro": null,
-        "title": "soffritti-mario"
+        "title": "soffritti-mario",
+        "Causa_morte_norm": "Broncopolmonite"
     },
     {
         "Numero": 365,
@@ -10582,6 +10946,7 @@
         "Teatro_1": "Plava",
         "Teatro_2": null,
         "Coordinate_teatro": "46.04112,13.58958",
-        "title": "soffritti-paolo"
+        "title": "soffritti-paolo",
+        "Causa_morte_norm": "Granata"
     }
 ]
