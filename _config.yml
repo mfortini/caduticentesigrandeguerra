@@ -41,9 +41,25 @@ navbar-links:
           - Alberone: "stats_di/Alberone/index.html"
           - Buonacompra: "stats_di/Buonacompra/index.html"
           - Reno Centese: "stats_di/Reno Centese/index.html"
+  Per corpo:
+          - Fanteria: "corpo/fanteria/"
+          - Bersaglieri: "corpo/bersaglieri/"
+          - Mitraglieri Fiat: "corpo/mitraglieri-fiat/"
+          - Artiglieria da campagna: "corpo/artiglieria-campagna/"
+          - Granatieri: "corpo/granatieri/"
+          - Genio: "corpo/genio/"
+          - Tutti i corpi: "corpo/"
+  Teatri di guerra:
+          - Fronte dell'Isonzo: "teatro/isonzo/"
+          - Altipiani di Asiago: "teatro/altipiani/"
+          - Monte Grappa e Piave: "teatro/grappa-piave/"
+          - Libia: "teatro/libia/"
+          - Albania: "teatro/albania/"
   Il Progetto:
    - About: "about/index.html"
    - Cronologia date di morte: "date_di_morte/"
+   - Morti dopo la guerra: "dopo-la-guerra/"
+   - Professioni: "professioni/"
   Ricerca: "ricerca/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -232,10 +248,17 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-tidy
+  - jekyll-minifier
 
 jekyll_tidy:
   exclude: []
   compress_html: true
+
+jekyll-minifier:
+  compress_javascript: false
+  compress_css: false
+  remove_multi_spaces: true
+  preserve_line_breaks: false
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

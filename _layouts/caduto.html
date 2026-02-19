@@ -169,10 +169,24 @@ pagetype: caduto
 
                                 <div class="info-section">
                                         <h3>Informazioni Militari</h3>
+                                        {% if page.Corpo %}
+                                        {% assign corpo_page = site.pages | where_exp: "p", "p.corpi_valori contains page.Corpo" | first %}
+                                        <div class="info-row">
+                                                <span class="info-label">Corpo:</span>
+                                                <span class="info-value">{% if corpo_page %}<a href="{{ corpo_page.permalink }}">{{ page.Corpo }}</a>{% else %}{{ page.Corpo }}{% endif %}{% if page.N_corpo %} ({{page.N_corpo}}){% endif %}</span>
+                                        </div>
+                                        {% endif %}
                                         {% if page.Grado %}
                                         <div class="info-row">
                                                 <span class="info-label">Grado:</span>
                                                 <span class="info-value">{{page.Grado}}</span>
+                                        </div>
+                                        {% endif %}
+                                        {% if page.Teatro_1 %}
+                                        {% assign teatro_page = site.pages | where_exp: "p", "p.teatri_valori contains page.Teatro_1" | first %}
+                                        <div class="info-row">
+                                                <span class="info-label">Teatro:</span>
+                                                <span class="info-value">{% if teatro_page %}<a href="{{ teatro_page.permalink }}">{{ page.Teatro_1 }}</a>{% else %}{{ page.Teatro_1 }}{% endif %}</span>
                                         </div>
                                         {% endif %}
                                         {% if page.Causa_morte %}

@@ -1,0 +1,57 @@
+{% assign filtereddata = site.data.caduti | where_exp: "m", "page.corpi_valori contains m.Corpo" | sort: "Cognome" %}
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-intro">
+        {% assign conteggio = filtereddata | size %}
+        {% if page.descrizione %}<p>{{ page.descrizione }}</p>{% endif %}
+        {% if conteggio == 1 %}
+          C'è <strong>1 caduto</strong> del corpo <strong>{{ page.title }}</strong>.
+        {% else %}
+          Ci sono <strong>{{ conteggio }} caduti</strong> del corpo <strong>{{ page.title }}</strong>.
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row caduto-cards-row">
+    {% for member in filtereddata %}
+    <div class="col-sm-6 col-md-4">
+      <a href="/caduti/{{ member.title | downcase | replace: ' ','-' }}/index.html" class="caduto-card h-100 d-flex flex-column">
+        <div class="caduto-card-header flex-shrink-0">
+          <h3>{{ member.Cognome }} {{ member.Nome }}</h3>
+        </div>
+        <div class="caduto-card-body flex-grow-1">
+          {% if member.Grado != blank %}
+          <div class="caduto-info-item">
+            <span class="caduto-info-label">Grado:</span>
+            <span class="caduto-info-value">{{ member.Grado }}</span>
+          </div>
+          {% endif %}
+          {% if member.Corpo != blank %}
+          <div class="caduto-info-item">
+            <span class="caduto-info-label">Corpo:</span>
+            <span class="caduto-info-value">{{ member.Corpo }}{% if member.N_corpo != blank %} ({{ member.N_corpo }}){% endif %}</span>
+          </div>
+          {% endif %}
+          {% if member.Data_morte != blank %}
+          {% assign dataMorte = member.Data_morte | split: '-' %}
+          <div class="caduto-info-item">
+            <span class="caduto-info-label">Morte:</span>
+            <span class="caduto-info-value">
+              {% if dataMorte[2] == "11" %}l'{% else %}il {% endif %}{{ dataMorte[2] }}/{{ dataMorte[1] }}/{{ dataMorte[0] }}
+              {% if member.Data_nascita != blank %} ({{ dataMorte[0] | times: 1 | minus: member.Data_nascita | round: 0 }} anni){% endif %}
+            </span>
+          </div>
+          {% endif %}
+          <div class="caduto-info-item">
+            <span class="caduto-info-label">Frazione:</span>
+            <span class="caduto-info-value">{{ member.Provenienza }}</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

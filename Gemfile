@@ -21,6 +21,7 @@ group :jekyll_plugins do
   #gem 'listen'
   #gem 'activesupport'
   gem 'jekyll-datapage-generator'
+  gem 'jekyll-minifier'
 end
 
 gem 'html-proofer'
